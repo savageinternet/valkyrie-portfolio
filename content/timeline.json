@@ -1,0 +1,237 @@
+{
+  "timeline": [{
+    "thumb": "ootscoot-300.png",
+    "title": "Oot and a'Scoot",
+    "date": "08-2016",
+    "links": [{
+      "title": "Photos",
+      "href": "https://photos.google.com/share/AF1QipP8k2wmMH2muCtZgIZpyobB9RFgojNXGvNyPSRebKE7Gi1LC_OwbDFshAblZQMotQ?key=WHdLc0hndEZuZFVFSUNZRTVKblJSUHo2dWVmOTBn"
+      },
+      {
+        "title": "Blog",
+        "href": "http://ootscoot.savageinter.net/"
+    }],
+    "description": "After wrapping up our work in the San Francisco Bay Area, Evan and I hopped onto our Vespa (which we fondly call 'The Emperor') and drove it 5,000 or so kilometers from San Francisco to Toronto. Along the way, we met bears and bison, as well as a lot of really incredible people. We also managed to stumble across the only Vespa shop along the way."
+  },
+  {
+    "thumb": "sweden-300.png",
+    "title": "Sweden",
+    "date": "05-2016",
+    "links": [],
+    "description": "As jugger players, we like to occasionally find our way to faraway places to test our skills against the rest of the world. We rustled up the usual suspects from Berkeley, and the six of us went to play in Sweden's Järnsvenskan Jugger tournament (+ Metal Festival)."
+  },
+  {
+    "thumb": "india-300.png",
+    "title": "India",
+    "date": "01-2016",
+    "links": [],
+    "description": "Evan and I got another exotic wedding invitation: this one in India! A dear friend of ours from the Google days tied the knot with his wonderful partner, and we got to explore India. I can honestly tell you that an Indian wedding is everything you have heard that it is: he literally rode into the ceremony on a white horse."
+  },
+  {
+    "thumb": "korea-300.png",
+    "title": "Korea",
+    "date": "03-2015",
+    "links": [{
+      "title": "Photos",
+      "href": "https://photos.google.com/share/AF1QipOtXh_RHA8oMFw4H8Qgrj4xt1TWJMzZtXDM-JVlPOLMePYt5jT55IYF16cjnxTDQw?key=MzY1YWVwUnpUcTRIbmFaZGY1S3lhZldwd2VsX2JR"
+      }],
+    "description": "Another conference cum vacation! CHI 2015 was in Seoul, so afterwards Evan dropped by Korea and we went on an adventure over Korea's second-highest mountain, through its most famous royal burial grounds, and into its poshest Jjimjilbang (bath house) with our friends Lora and Wes."
+  },
+  {
+    "thumb": "hawaii-300.png",
+    "title": "Hawaii",
+    "date": "11-2014",
+    "links": [{
+      "title": "Photos",
+      "href": "https://photos.google.com/share/AF1QipPrvFGGzOyerrFNX4CSA5JFqOTcd3ZoocnTe83YTWVk6RjEQZ1TxglX76n0YCBQIQ?key=eko4dDFKX1l3ZHJNVFo0bl9iczhBU3R5TGYwa1Z3"
+      }],
+    "description": "As usual, when one is invited to a conference in an exotic place, one invites one's spouse. After UIST 2014, Evan and I poked around the islands of Oahu, Kawaii, and Hawaii. We narrowly missed seeing actual lava (good or bad, depending how you look at it), but Volcanoes National Park was definitely a highlight of the trip."
+  },
+  {
+    "thumb": "israel-300.png",
+    "title": "Israel",
+    "date": "06-2014",
+    "links": [{
+      "title": "Photos",
+      "href": "https://photos.google.com/share/AF1QipPLk3AkmaZirEePAov_7suAjVSdCuIlLecYmAIXOWI13YWEGf6yuxp5eDZeGqCkzQ?key=a3lNVVhQMU5UQzE4NHhhMmtrbE9fV2tfS3JCUnFR"
+      }],
+    "description": "Evan and I got invited to a friend's wedding in Israel. It would have been foolish to refuse. During our time there, we got to meet my mom's penpal (they have been penpals for 40 years!), see the countryside, explore Nazareth and other holy sites, and eat a lot of tasty, tasty food."
+  },
+  {
+    "thumb": "seasia-300.png",
+    "title": "Southeast Asia",
+    "date": "07-2013",
+    "links": [{
+      "title": "Photos",
+      "href": "http://picasaweb.google.com/biketotheearth"
+      },{
+        "title": "Blog",
+        "href": "http://ramblelust.savageinter.net/"
+    }],
+    "description": ""
+  },
+  {
+    "thumb": "grad-300.png",
+    "title": "Grad school blog",
+    "date": "04-2013",
+    "links": [{
+      "title": "Blog",
+      "href": "https://blog.valkyriesavage.com"
+      }],
+    "description": "For too short a time, I recorded some information about projects I did during my time in grad school at UC Berkeley. It turns out, being a PhD student takes up a lot of one's time."
+  },
+  {
+    "thumb": "luxembourg-300.png",
+    "title": "Luxembourg",
+    "date": "05-2013",
+    "links": [],
+    "description": "We finally knocked off the last western European country on our lists: Luxembourg. As a special deviation after CHI 2013, we rented a car and drove both to get information from some distant relatives of mine in Metz, France, and to explore this tiny and improbable-seeming country."
+  },
+  {
+    "thumb": "momath-300.png",
+    "title": "Toronto to New York",
+    "date": "01-2013",
+    "links": [],
+    "description": "For a ridiculous New Year's Eve, we decided to run a 5k in the dark Toronto snow. The next morning, we set out on a quest to visit the Museum of Mathematics, newly opened in New York City. We stopped by Montreal and Boston on the way, and took time to visit the Makerbot Flagship Store in NYC, too. For research purposes, you understand."
+  },
+  {
+    "thumb": "keys-300.png",
+    "title": "Florida Keys",
+    "date": "08-2012",
+    "links": [],
+    "description": "Although I had been several times, my husband never had, so we took the opportunity to tag along with my parents for two weeks of snorkeling, fishing, and lobster-catching."
+  },
+  {
+    "thumb": "tost-300.png",
+    "title": "Tost Wedding",
+    "date": "04-2012",
+    "links": [{
+      "title": "Photos and Videos",
+      "href": "https://get.google.com/u/0/albumarchive/110802499951011570764/album/AF1QipNmcBg_196XMQF8kZbzY6fQU2s2fY20DEOaAztG"
+      },{
+      "title":"Vows",
+      "href":"http://github.com/valkyriesavage/tost-vows"
+      }],
+    "description": "My partner, Evan, and I got married on April 1, 2012. In true California fashion, we sewed our own clothes, brewed our own beer, fabricated our own rings, and open-sourced our vows on github. We also crafted electronics for my dress that would light up when we were close together, and dim when we were far apart."
+  },
+  {
+    "thumb": "canyon-300.png",
+    "title": "Actual Grand Canyon",
+    "date": "01-2012",
+    "links": [],
+    "description": "We hiked down the Grand Canyon to the bottom on New Year's Eve and emerged on New Year's Day. We carried a bottle of champagne with us down to the bottom, much to the amusement of the other folks staying in our campground. While in the area, we crossed off such bucket list items as flying in a hot air balloon."
+  },
+  {
+    "thumb": "marathon-300.png",
+    "title": "Little Grand Canyon",
+    "date": "09-2011",
+    "links": [],
+    "description": "We actually ran a marathon. After training for some months with our friends, we decided to use the purchase of racing tickets as a forcing function that would convince us to do it. So, we flew to Salt Lake City and ran through the Little Grand Canyon amid fossilized dinosaur footprints and petroglyphs."
+  },
+  {
+    "thumb": "vancouver-300.png",
+    "title": "Vancouver to Portland",
+    "date": "07-2011",
+    "links": [],
+    "description": "Continuing our cycling theme, we decided to do a smaller trip from Vancouver to Portland. We made some new friends along the way in rural Washington, and cultivated our love of fine beers. :)"
+  },
+  {
+    "thumb": "fearless-300.png",
+    "title": "California, Life in",
+    "date": "02-2011",
+    "links": [{
+      "title": "Blog",
+      "href": "http://fearlesstost.blogspot.com"
+    }],
+    "description": "For a short time, Evan and I kept a blog about our big move out to California. He was starting his job at Facebook, and I was consulting on some interesting collaboration and voice font projects around the Bay, as well as being in the process of applying to grad school."
+  },
+  {
+    "thumb": "btte-300.png",
+    "title": "Bike to the Earth",
+    "date": "07-2010",
+    "links": [{
+      "title": "Photos",
+      "href": "http://picasaweb.google.com/biketotheearth"
+      },
+      {
+        "title": "Blog",
+        "href": "http://savageinternet.github.io/biketotheearth"
+      },
+      {
+        "title": "Map",
+        "href": "http://goo.gl/maps/0Xs55"
+    }],
+    "description": "With ~40 lbs. of luggage each and an absurd dream to bike at least 10,000 km, Evan and I set out on a cycling trip from Copenhagen to Portugal via Istanbul. It was a chance to find ourselves (and each other) after completing our bachelors' degrees and before setting into the 'real world.'' We discovered the incredible depths of human kindness and our own tenacity."
+  },
+  {
+    "thumb": "suisse-300.png",
+    "title": "CERNtainly",
+    "date": "02-2010",
+    "links": [{
+      "title": "Blog",
+      "href": "http://cerntainly.blogspot.com/"
+      }],
+    "description": "While I lived in Geneva working for CERN, I had the opportunity to visit several places I'd missed during my time in Germany. I began preparing for the bike trip with my meagre 10km commute every morning. I did the bungee jump from the opening sequence of Goldeneye..."
+  },
+  {
+    "thumb": "senior-300.png",
+    "title": "Sprint to the End",
+    "date": "10-2009",
+    "links": [{
+      "title": "Blog",
+      "href": "http://sprinttotheend.blogspot.com/"
+      }],
+    "description": "By this point in my life, I was a little obsessed with blogging. It was my senior year, and I documented my final few months in school. During my last semester, I took 5 graduate-level courses and piano."
+  },
+  {
+    "thumb": "germany-300.png",
+    "title": "Germany",
+    "date": "07-2009",
+    "links": [{
+      "title": "Photos",
+      "href": "http://picasaweb.google.com/vasavage"
+      },{
+      "title": "Blog",
+      "href": "http://awesomehaus.blogspot.com/"
+      }],
+    "description": "My first visit to Europe was while I was doing NLP research with TU Darmstadt. I had some money left from the Google internship, which I of course rashly spent jetting all over the European continent on the weekends."
+  },
+  {
+    "thumb": "666-300.png",
+    "title": "Next to 666",
+    "date": "05-2009",
+    "links": [{
+      "title": "Blog",
+      "href": "http://nextto666.blogspot.ca/"
+      }],
+    "description": "I kept a blog about the first apartment I lived in in college, where my roommates and I conspired to paint the walls (totally within the bounds of the lease, right?) and craft delicious vegetarian and vegan foods."
+  },
+  {
+    "thumb": "japan-300.png",
+    "title": "Japan",
+    "date": "12-2008",
+    "links": [{
+      "title": "Photos",
+      "href": "https://picasaweb.google.com/112473489641783705028/Japan?noredirect=1"
+      }],
+    "description": "We had some money left after working for Google, so Evan and I decided that we should head to Japan. This destination was literally chosen via the Python utility random.choice in a contest between it, Brazil, and Madagascar."
+  },
+  {
+    "thumb": "cali-300.png",
+    "title": "California",
+    "date": "06-2008",
+    "links": [{
+      "title": "Photos",
+      "href": "http://alliterationhouse.blogspot.com/"
+      }],
+    "description": "During the summer of my Google internship, I took the opportunity to get to know California. There was skydiving, convertible renting, jet skiing, and any ridiculous thing we could think of. This was the summer I met my husband!"
+  },
+  {
+    "thumb": "states-300.png",
+    "title": "50 States",
+    "date": "07-2004",
+    "links": [],
+    "description": "My parents decided that my sister and I should see every state. So we did. We finished up with a round through Alaska and Hawaii the summer that I turned 16."
+  }
+]
+}

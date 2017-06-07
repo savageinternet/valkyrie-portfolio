@@ -1,0 +1,11 @@
+{
+  "projects": [{
+    "thumb": "locatrix-300.png",
+    "title": "Locatrix",
+    "tags": ["w", "m", "d", "v"]
+  }, {
+    "thumb": "expedition-300.png",
+    "title": "expedition!",
+    "tags": ["ed", "g", "rw"]
+  }]
+}

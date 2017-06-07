@@ -1,0 +1,24 @@
+{
+  "research": [{
+    "thumb": "drillsergeant-300.png",
+    "title": "Drill Sergeant",
+  },{
+    "thumb": "3dp-300.png",
+    "title": "3-D Printing Interactive Devices"
+  },{
+    "thumb": "mmarks-300.png",
+    "title": "Makers' Marks"
+  },{
+    "thumb": "lamello-300.png",
+    "title": "Lamello"
+  },{
+    "thumb": "sot-300.png",
+    "title": "A series of tubes"
+  },{
+    "thumb": "sauron-300.png",
+    "title": "Sauron",
+  },{
+    "thumb": "midas-300.png",
+    "title": "Midas"
+  }]
+}

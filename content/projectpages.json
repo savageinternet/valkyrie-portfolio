@@ -1,0 +1,220 @@
+{
+  "projectpages": [{
+    "thumb": "locatrix-300.png",
+    "title": "Locatrix",
+    "tags": ["w", "m", "d", "v"],
+    "deliverable": "Android application and website",
+    "description": "Locatrix is an app that tracks a user's location and makes it easy to share: the twist is that, instead of sharing a precise location, the app preserves user privacy and safety by only sharing city-level location. This unusual app structure necessitates user education up-front when the app is downloaded, as well as care in design and precision in language, particularly on the interfaces that allow users to share.\nLocatrix comes in two parts: an app which is downloaded to the user's phone and a website which leads the user through configuring their sharing tools. Both parts use the same login information, and also allow the user to log in using a magic link (similar to slack).\nThe app begins with a coverflow that describes the app's usage, and then has a very simple interface which just shows the most recent location recorded and allows the user to force an update (it updates at a random time each day otherwise).\nThe website uses a dynamic form to lead users through configuring a widget for sharing in an email signature or on their blog, or a link which they can share directly.",
+    "duration": "6 months",
+    "imagedir": "img/locatrix/",
+    "client":"Savage Internet",
+    "links":[{
+      "title":"Locatrix web home",
+      "href":"https://locatrix.savageinter.net"
+      },{
+        "title":"Locatrix on Google Play",
+        "href":"https://play.google.com/store/apps/details?id=net.savageinter.locatrix"
+      }],
+  },{
+    "thumb": "zombie-300.png",
+    "title": "Zombie Rendezvous",
+    "tags": ["p", "v", "g", "e"],
+    "deliverable": "Printable game booklet",
+    "description": "Zombie Rendezvous is a game designed to be playable in 30 minutes or less by children ages 4-12 who attended an open air science festival in Toronto. The game consists of four stations that players must visit; a zombie, a doctor, a pathologist, and a researcher. The core of the game is a paper booklet, handed to players at the beginning of the game when they are infected by a zombie. Through the course of curing their infection, players learn about the difference between bacterial, viral, and fungal infections, how doctors prevent the spread of diseases, how pathologists grow cultures of diseases, and how researchers design drugs.\nI designed and illustrated the entire booklet, with the exception of the three cover zombies.",
+    "duration": "2 months",
+    "imagedir": "img/zombies/",
+    "client":"SciCommTO",
+    "links":[{
+        "title":"Printer-friendly booklet",
+        "href":"https://drive.google.com/file/d/0B0jF681JP2rJaUxwZjZDaUVWbnc/view"
+      },{
+        "title":"Blog Post",
+        "href":"https://blog.savageinter.net/blog/2017/05/15/zombies/"
+      }],
+  },{
+    "thumb": "puzzlingmadness-300.png",
+    "title": "The Puzzling Madness of John A. Macdonald",
+    "tags": ["p", "v", "e", "g"],
+    "deliverable": "Website and paper puzzle materials",
+    "description": "The Puzzling Madness of John A. Macdonald is a blend between escape room game and historical tour: it takes place across downtown Toronto, and is set in that city during 1867. Players encounter a mysterious plot which threatens Canada's Confederation, and must physically travel to downtown locations to solve puzzles in order to stop it. At each location, they meet a historical character and are given a puzzle document, which relies on features of the historical site's environment to solve.\nI am the sole visual designer for the website and puzzle documents, and collaborate on game and puzzle design. I am also the principal UX researcher: I schedule and help run game playtests, design post-test surveys, and collect user interview information during the tests in order to improve the puzzle design.",
+    "duration": "8 months (in progress)",
+    "imagedir": "img/pm/",
+    "client":"Savage Internet",
+    "links":[{
+        "title":"Puzzling Madness Website",
+        "href":"https://puzzlingmadness.ca"
+      }],
+  },{
+    "thumb": "heve-300.png",
+    "title": "Hello, Velo!",
+    "tags": ["p","d"],
+    "deliverable": "3D-printed case and electronics, SMS-based interface, documentation",
+    "description": "Hello, Velo! attaches to a bicycle and allows its owner to communicate with it, for example to determine where she left it parked. A GSM (cellular network) antenna and a GPS antenna attached to a Kinoma Element form the device's functional core, and are enclosed in a custom 3D-printed case.\nAll user-facing communication is performed via text message (SMS). A user may ask 'Where is my bike?' or 'Where did I park?', and in response the Hello, Velo! sends a Google maps link with its current location highlighted. The Hello, Velo! also detects when a user is heading towards their home from their office: at this time, it sends a text message to the user's significant other giving a traffic-adjusted estimated time of arrival at home.\nThis project was completed as a demo to showcase the Internet of Things (IOT) capabilities of the Kinoma Element. I crafted the case, electronics, code, and documentation myself.",
+    "duration": "2 months",
+    "imagedir": "img/heve/",
+    "client":"Marvell Kinoma",
+    "links":[{
+        "title":"Kinoma Blog Post",
+        "href":"http://blog.kinoma.com/2016/08/hello-velo"
+      },{
+        "title":"Instructable for Hello, Velo!",
+        "href":"http://www.instructables.com/id/Hello-Velo-the-Internet-of-Two-Wheeled-Things/"
+      },{
+        "title":"3D Models for Case",
+        "href":"https://www.thingiverse.com/thing:1695733"
+      },{
+        "title":"Product Video",
+        "href":"https://www.youtube.com/watch?v=o7tmXK9yNiM"
+      },{
+        "title":"Technical Walkthrough Video",
+        "href":"https://www.youtube.com/watch?v=YQAL1LEk7Jk"
+      }],
+  },{
+    "thumb": "joynews-300.png",
+    "title": "JoyNews",
+    "tags": ["p","m"],
+    "deliverable": "Physical phone case prototype and mobile-friendly website",
+    "description": "As a part of Toronto's 2017 Comedy Hack Day, my partner and I worked with another designer and a comedian to develop a hardware prototype of a system that makes it nicer for people to read the news. Our system integrates real-time javascript-based emotion detection as well as the HTML5 vibration API.\nI was the primary visual designer for this project, creating the logo, the layout of the website, as well as the slideshow.",
+    "duration": "1 day",
+    "imagedir": "img/joynews/",
+    "client":"Toronto Comedy Hack Day",
+    "links":[{
+      "title":"Live Site",
+      "href":"https://dildo.savageinter.net"
+    },{
+      "title":"Presentation Slides",
+      "href":"https://docs.google.com/presentation/d/1y_IePtHtJ1Z5-Ot3eRjXPJPIXKiYQvByj0ELNXUeFl0/edit?usp=sharing"
+    },{
+      "title":"Code on Github",
+      "href":"https://github.com/joynews/joynews"
+    }],
+  },{
+    "thumb": "jugger-300.png",
+    "title": "Jugger California",
+    "tags": ["v","p","g"],
+    "deliverable": "Logo, uniform designs, various physical objects, Instructable",
+    "description": "Jugger California is a San Francisco-area league for the sport of jugger. Jugger—a blend of capture the flag, fencing, and rugby—enjoys relative popularity in Germany, but my partner and I introduced the game to the Bay Area. I designed our logo and uniforms, along with several giveaways (3D printable cookie cutters, beer labels, engraved pint glasses) for players and other teams we met at tournaments. I created an Instructable, later featured, to document the building process. My partner and I gave a presentation at Nerd Nite East Bay on the history of the sport, for which I crafted the presentation slides.",
+    "duration": "3 years",
+    "imagedir": "img/jugger",
+    "client":"",
+    "links":[{
+      "title":"Weapons Instructable",
+      "href":"http://instructables.com/id/Jugger-Weapons"
+    },{
+      "title":"East Bay Nerd Nite Presentation",
+      "href":"https://youtu.be/LZ1WYXq14u0?t=2h52m40s"
+    }],
+  },{
+    "thumb": "si-300.png",
+    "title": "savageinter.net",
+    "tags": ["v","w"],
+    "deliverable": "Website",
+    "description": "Savage Internet is a games and education company I co-founded with my partner. I provided primary design for our website.",
+    "duration": "1 week",
+    "imagedir": "img/si/",
+    "client":"Savage Internet",
+    "links":[{
+      "title":"Live Site",
+      "href":"https://savageinter.net"
+    }],
+  },{
+    "thumb": "m4s-300.png",
+    "title": "March for Science Toronto",
+    "tags": ["v","w"],
+    "deliverable": "Website",
+    "description": "March for Science Toronto was a part of the global March for Science movement. I created the website design for the march, in addition to other organizing duties.",
+    "duration": "6 months",
+    "imagedir": "img/m4s/",
+    "client":"",
+    "links":[{
+      "title":"Live Site",
+      "href":"https://sciencemarchto.ca"
+    }],
+  },{
+    "thumb": "resist-300.png",
+    "title": "#resist shop",
+    "tags": ["p"],
+    "deliverable": "3D models",
+    "description": "To raise money for nonprofit advocacy organizations in the wake of the 2016 American election, I created 3D models of necklace pendants and cufflinks showcasing pussyhats, uteruses, and other objects.",
+    "duration": "1 month",
+    "imagedir": "img/resist/",
+    "client":"",
+    "links":[{
+      "title":"#resist Shop on Shapeways",
+      "href":"https://www.shapeways.com/shops/valkyrie"
+    }],
+  },{
+    "thumb": "cs160-300.png",
+    "title": "Intro User Interface Design Instruction",
+    "tags": ["d","e"],
+    "deliverable": "Course assignments, website, lecture slides, and 14 student projects",
+    "description": "I instructed an upper division undergraduate course on Human Computer Interaction / User Interface Design and Development in Summer 2015, including redesigning the curriculum, including a studio component in place of half the lectures, and integrating a new technology. In the process of running this class, I helped to shepherd student designs of Android Wear-based mobile applications, both UI and UX.",
+    "duration": "4 months",
+    "imagedir": "img/cs160/",
+    "client":"UC Berkeley",
+    "links":[{
+      "title":"Course Website",
+      "href":"https://cs160.valkyriesavage.com"
+    }],
+  },{
+    "thumb": "critical-300.png",
+    "title": "Critical Practices",
+    "tags": ["d","p"],
+    "deliverable": "Various 3D printable, laser cuttable, and electronic compositions",
+    "description": "Critical Practices, a course offered at UC Berkeley, encourages students to consider fabrication and electronics from an artful and community perspective. Throughout the course, I created a variety of fabricated objects, now documented on hackster.io.",
+    "duration": "3 months",
+    "imagedir": "img/critical/",
+    "client":"",
+    "links":[{
+      "title":"'Hair Today, Gone Tomorrow' 3D printable Hair Clip",
+      "href":"https://www.hackster.io/valkyriesavage/hair-today-gone-tomorrow-3d50e7"
+    },{
+      "title":"'False Signifiers' Lasercut Stencil",
+      "href":"https://www.hackster.io/valkyriesavage/false-signifiers-3fe4fa"
+    },{
+      "title":"'Cheeseboard Median Historical Preservation Society' Writeup",
+      "href":"https://www.hackster.io/team-the-cheeseboard-median-historical-society/cheeseboard-median-historical-preservation-society-912702"
+    },{
+      "title":"'Bear Necessities' Package Delivery Notification Machine",
+      "href":"https://www.hackster.io/symbiotic-circle/the-bear-necessities-designing-for-communal-consumption-86e683"
+    }],
+  },{
+    "thumb": "h2oiq-300.png",
+    "title": "H2O IQ",
+    "tags": ["p","d","w"],
+    "deliverable": "Physical electronics and case, website",
+    "description": "H2O IQ is a smart watering system hooked into a drip irrigation system. It includes an in-garden moisture monitoring device and a web interface. The in-garden device's moisture sensor is built of two nails submerged in plaster; the plaster absorbs water similarly to a plant's stem making this an effective method of measurement. The device also contains a servo which it uses to control water flow through the drip irrigation system. Finally, the device has a simple on-board microcontroller and XBee radio which it uses to update a server's record of its moisture as well as to query the server for optimal or desired watering settings. I designed the web interface and electronics code.",
+    "duration": "3 months",
+    "imagedir": "img/h2oiq/",
+    "client":"",
+    "links":[{
+      "title":"Project Video",
+      "href":"http://www.youtube.com/watch?feature=player_embedded&v=hKjWDz8GVbY"
+    },{
+      "title":"3D Models and Source Code",
+      "href":"http://github.com/valkyriesavage/fluffy-toboggans"
+    },{
+      "title":"Systems Simulation Project Code",
+      "href":"https://github.com/valkyriesavage/fraiche"
+    },{
+      "title":"Systems Paper",
+      "href":"papers/cs262a.pdf"
+    },{
+      "title":"Device Presentation Slides",
+      "href":"https://docs.google.com/presentation/d/1S5aFqThC5lc4pM-Y68lGRSMbOaRiJMXD9njBcWfeR2Q/edit"
+    }],
+  },{
+    "thumb": "docsavage-300.png",
+    "title": "Doc Savage's Intensive Mental Training",
+    "tags": ["e","v","g"],
+    "deliverable": "Printable game board",
+    "description": "Doc Savage's Intensive Mental Training is a word game in the crossword style, that focuses its challenge around syllables rather than pure letter counts. At least one foreign language (Spanish) professor has used it in her classroom as a fun challenge to encourage growth in second-language learners. I collaborated on the game design, and created the board and instructions' visual design.",
+    "duration": "1 week",
+    "imagedir": "img/docsavage/",
+    "client":"",
+    "links":[{
+      "title":"Printable Game Board",
+      "href":"https://drive.google.com/file/d/0BzrCBpMEE7AVTlpheFE2VDR0NWM/view?usp=sharing"
+    }],
+  }]
+}
