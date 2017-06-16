@@ -1,4 +1,6 @@
-all: copy
+all: copy pyth
+
+pyth: python htmlize.py
 
 copy: build/css/style.css build/content/projects.html build/index.html
 	cp -r consulting.html favicon.ico fonts google2ef4f2b4bcd33bf5.html img js robots.txt team.html build
