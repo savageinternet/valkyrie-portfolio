@@ -1,0 +1,19 @@
+{{#timeline}}
+  <div class="timeline">
+    <div class="timeline-wrapper">
+      <img class="timeline-image" src="/img/timeline/{{thumb}}" />
+      <div class="timeline-title">{{title}}</div>
+      <div class="timeline-date">{{date}}</div>
+      <div class="timeline-description">
+        <p>{{description}}</p>
+        <ul>
+          {{#links}}
+          <li class="timeline-link">
+            <a href="{{href}}" title="{{title}}">{{title}}</a>
+          </li>
+          {{/links}}
+        </ul>
+      </div>
+    </div>
+  </div>
+{{/timeline}}
