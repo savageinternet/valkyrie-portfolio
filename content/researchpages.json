@@ -1,27 +1,27 @@
 {
-  "projectpages": [{
+  "researchpages": [{
     "thumb": "fabbed-300.png",
     "title": "Fabbed to Sense: Integrated Design of Geometry and Sensing Algorithms for Interactive Objects",
     "authors": "Valkyrie Savage",
     "venue": "Dissertation",
-    "abstract": "Task-specific tangible input devices, like video game controllers, improve user speed and accuracy in input tasks compared to the more general-purpose touchscreen or mouse and keyboard. However, while modifying a graphical user interface (GUI) to accept mouse and keyboard inputs for new and specific tasks is relatively easy and requires only software knowledge, tangible input devices are challenging to prototype and build.\n\n
-Rapid prototyping digital fabrication machines, such as vinyl cutters, laser cutters, and 3D printers, now permeate the design process for such devices. Using these tools, designers can realize a new tangible design faster than ever. In a typical design process, these machines are not used to create the interaction in these interactive product prototypes: they merely create the shell, case, or body, leaving the designer to, in an entirely separate process, assemble and program electronics for sensing a user's input. What are the most cost-effective, fast, and flexible ways of sensing rapid-prototyped input devices? In this dissertation, we investigate how 2D and 3D models for input devices can be automatically generated or modified in order to employ standard, off-the-shelf sensing techniques for adding interactivity to those objects: we call this ''fabbing to sense.''\n\n
-We describe the capabilities of modern rapid prototyping machines, linking these abilities to potential sensing mechanisms when possible. We plunge more deeply into three examples of sensing/fabrication links: we build analysis and design tools that help users design, fabricate, assemble, and <i>use</i> input devices sensed through these links. First, we discuss Midas, a tool for building capacitive sensing interfaces on non-screen surfaces, like the back of a phone. Second, we describe Lamello, a technique that generates lasercut and 3D printed tine structures and simulates their vibrational frequencies for training-free audio sensing. Finally, we present Sauron, a tool that automatically modifies the interior of 3D input models to allow sensing via a single embedded camera. We demonstrate each technique's flexibility to be used for many types of input devices through a series of example objects.",
+    "abstract": "Task-specific tangible input devices, like video game controllers, improve user speed and accuracy in input tasks compared to the more general-purpose touchscreen or mouse and keyboard. However, while modifying a graphical user interface (GUI) to accept mouse and keyboard inputs for new and specific tasks is relatively easy and requires only software knowledge, tangible input devices are challenging to prototype and build.\n\nRapid prototyping digital fabrication machines, such as vinyl cutters, laser cutters, and 3D printers, now permeate the design process for such devices. Using these tools, designers can realize a new tangible design faster than ever. In a typical design process, these machines are not used to create the interaction in these interactive product prototypes: they merely create the shell, case, or body, leaving the designer to, in an entirely separate process, assemble and program electronics for sensing a user's input. What are the most cost-effective, fast, and flexible ways of sensing rapid-prototyped input devices? In this dissertation, we investigate how 2D and 3D models for input devices can be automatically generated or modified in order to employ standard, off-the-shelf sensing techniques for adding interactivity to those objects: we call this \"fabbing to sense.\"\n\nWe describe the capabilities of modern rapid prototyping machines, linking these abilities to potential sensing mechanisms when possible. We plunge more deeply into three examples of sensing/fabrication links: we build analysis and design tools that help users design, fabricate, assemble, and <i>use</i> input devices sensed through these links. First, we discuss Midas, a tool for building capacitive sensing interfaces on non-screen surfaces, like the back of a phone. Second, we describe Lamello, a technique that generates lasercut and 3D printed tine structures and simulates their vibrational frequencies for training-free audio sensing. Finally, we present Sauron, a tool that automatically modifies the interior of 3D input models to allow sensing via a single embedded camera. We demonstrate each technique's flexibility to be used for many types of input devices through a series of example objects.",
     "links": [
       {"title": "Download Dissertation", "href": "papers/thesis.pdf"},
-      {"title": "Presentation Video", "href": "https://www.youtube.com/watch?v=SgZUxloEo4s"},
+      {"title": "Presentation Video", "href": "https://www.youtube.com/watch?v=SgZUxloEo4s"}
     ],
+    "video": "https://www.youtube.com/watch?v=SgZUxloEo4s"
   },{
     "thumb": "drillsergeant-300.png",
     "title": "Drill Sergeant: Supporting Physical Construction Projects through an Ecosystem of Augmented Tools",
-    "authors": "Eldon Schoop, Michelle Nguyen, Daniel Lim, Valkyrie Savage, Sean Follmer, Björn Hartmann",
+    "authors": "Eldon Schoop, Michelle Nguyen, Daniel Lim, Valkyrie Savage, Sean Follmer, Bjoern Hartmann",
     "venue": "CHI 2016 EA",
     "abstract": "Mapping techniques from software tutorials onto physical craft processes can assist novices in building multi-material assemblies. By providing in-situ step instructions and progress tracking, generating dynamic feedback on technique, and adapting tutorial content to a user's specific context and preferences, an ecosystem of smart tools can guide users through complete project tutorials. We demonstrate how such techniques can be enabled by augmenting common workshop tools (drill/driver, saw, router) with measurement, state sensing and interactive feedback; and by sequencing instructions across multiple tools. We validate the benefits of a smart tool ecosystem through reflections on a series of author-created design examples and informal feedback from four fab lab users.",
     "links": [
       {"title": "On the Digital Library", "href": "http://dl.acm.org/citation.cfm?id=2892429"},
       {"title": "Download Paper", "href": "papers/drillsergeant.pdf"},
-      {"title": "Video", "href": "https://www.youtube.com/watch?v=y8Qvgf1dBqA"},
+      {"title": "Video", "href": "https://www.youtube.com/watch?v=y8Qvgf1dBqA"}
     ],
+    "video": "https://www.youtube.com/watch?v=y8Qvgf1dBqA"
   },{
     "thumb": "3dp-300.png",
     "title": "3-D Printing Interactive Devices",
@@ -31,17 +31,19 @@ We describe the capabilities of modern rapid prototyping machines, linking these
     "links": [
       {"title": "On the Digital Library", "href": "http://dl.acm.org/citation.cfm?id=2893495"}
     ],
+    "video": ""
   },{
     "thumb": "mmarks-300.png",
     "title": "Makers' Marks: Physical Markup for Designing and Fabricating Functional Objects",
     "authors": "Valkyrie Savage, Sean Follmer, Jingyi Li, Bjoern Hartmann",
     "venue": "UIST 2015",
-    "abstract": "To fabricate functional objects, designers create assemblies combining existing parts (e.g., mechanical hinges, electronic components) with custom-designed geometry (e.g., enclosures). Modeling complex assemblies is outside the reach of the growing number of novice ``makers' with access to digital fabrication tools. We aim to allow makers to design and 3D print functional mechanical and electronic assemblies. Based on a formative exploration, we created Makers' Marks, a system based on physically authoring assemblies with sculpting materials and annotation stickers. Makers physically sculpt the shape of an object and attach stickers to place existing parts or high-level features (such as parting lines). Our tool extracts the 3D pose of these annotations from a scan of the design, then synthesizes the geometry needed to support integrating desired parts using a library of clearance and mounting constraints. The resulting designs can then be easily 3D printed and assembled. Our approach enables easy creation of complex objects such as TUIs, and leverages physical materials for tangible manipulation and understanding scale. We validate our tool through several design examples: a custom game controller, an animated toy figure, a friendly baby monitor, and a hinged box with integrated alarm.",
+    "abstract": "To fabricate functional objects, designers create assemblies combining existing parts (e.g., mechanical hinges, electronic components) with custom-designed geometry (e.g., enclosures). Modeling complex assemblies is outside the reach of the growing number of novice \"makers\" with access to digital fabrication tools. We aim to allow makers to design and 3D print functional mechanical and electronic assemblies. Based on a formative exploration, we created Makers' Marks, a system based on physically authoring assemblies with sculpting materials and annotation stickers. Makers physically sculpt the shape of an object and attach stickers to place existing parts or high-level features (such as parting lines). Our tool extracts the 3D pose of these annotations from a scan of the design, then synthesizes the geometry needed to support integrating desired parts using a library of clearance and mounting constraints. The resulting designs can then be easily 3D printed and assembled. Our approach enables easy creation of complex objects such as TUIs, and leverages physical materials for tangible manipulation and understanding scale. We validate our tool through several design examples: a custom game controller, an animated toy figure, a friendly baby monitor, and a hinged box with integrated alarm.",
     "links": [
       {"title": "On the Digital Library", "href": "http://dl.acm.org/citation.cfm?id=2807508"},
       {"title": "Download Paper", "href": "papers/mmarks.pdf"},
-      {"title": "Video", "href": "https://www.youtube.com/watch?v=xzKKK6yF5Dw"},
+      {"title": "Video", "href": "https://www.youtube.com/watch?v=xzKKK6yF5Dw"}
     ],
+    "video": "https://www.youtube.com/watch?v=xzKKK6yF5Dw"
   },{
     "thumb": "lamello-300.png",
     "title": "Lamello: Passive Acoustic Sensing for Tangible Input Components",
@@ -51,8 +53,9 @@ We describe the capabilities of modern rapid prototyping machines, linking these
     "links": [
       {"title": "On the Digital Library", "href": "http://dl.acm.org/citation.cfm?id=2702207"},
       {"title": "Download Paper", "href": "papers/lamello.pdf"},
-      {"title": "Video", "href": "https://www.youtube.com/watch?v=695ke7P6HM4"},
+      {"title": "Video", "href": "https://www.youtube.com/watch?v=695ke7P6HM4"}
     ],
+    "video": "https://www.youtube.com/watch?v=695ke7P6HM4"
   },{
     "thumb": "sot-300.png",
     "title": "A series of tubes: adding interactivity to 3D prints using internal pipes",
@@ -62,8 +65,9 @@ We describe the capabilities of modern rapid prototyping machines, linking these
     "links": [
       {"title": "On the Digital Library", "href": "http://dl.acm.org/citation.cfm?id=2647374"},
       {"title": "Download Paper", "href": "papers/sot.pdf"},
-      {"title": "Video", "href": "https://www.youtube.com/watch?v=PiFbjOkYC4M"},
+      {"title": "Video", "href": "https://www.youtube.com/watch?v=PiFbjOkYC4M"}
     ],
+    "video": "https://www.youtube.com/watch?v=PiFbjOkYC4M"
   },{
     "thumb": "sauron-300.png",
     "title": "Sauron: embedded single-camera sensing of printed physical user interfaces",
@@ -73,8 +77,9 @@ We describe the capabilities of modern rapid prototyping machines, linking these
     "links": [
       {"title": "On the Digital Library", "href": "http://dl.acm.org/citation.cfm?id=2501992"},
       {"title": "Download Paper", "href": "papers/sauron.pdf"},
-      {"title": "Video", "href": "https://www.youtube.com/watch?v=GNdCnmm-cw8"},
+      {"title": "Video", "href": "https://www.youtube.com/watch?v=GNdCnmm-cw8"}
     ],
+    "video": "https://www.youtube.com/watch?v=GNdCnmm-cw8"
   },{
     "thumb": "midas-300.png",
     "title": "Midas: fabricating custom capacitive touch sensors to prototype interactive objects",
@@ -84,7 +89,8 @@ We describe the capabilities of modern rapid prototyping machines, linking these
     "links": [
       {"title": "On the Digital Library", "href": "http://dl.acm.org/citation.cfm?id=2380189"},
       {"title": "Download Paper", "href": "papers/midas.pdf"},
-      {"title": "Video", "href": "https://www.youtube.com/watch?v=lS60AH2_Pbs"},
+      {"title": "Video", "href": "https://www.youtube.com/watch?v=lS60AH2_Pbs"}
     ],
+    "video": "https://www.youtube.com/watch?v=lS60AH2_Pbs"
   }]
 }

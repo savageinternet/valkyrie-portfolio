@@ -3,9 +3,53 @@
     "thumb": "locatrix-300.png",
     "title": "Locatrix",
     "tags": ["w", "m", "d", "v"]
-  }, {
-    "thumb": "expedition-300.png",
-    "title": "expedition!",
-    "tags": ["ed", "g", "rw"]
+  },{
+    "thumb": "zombie-300.png",
+    "title": "Zombie Rendezvous",
+    "tags": ["p", "v", "g", "e"]
+  },{
+    "thumb": "puzzlingmadness-300.png",
+    "title": "The Puzzling Madness of John A. Macdonald",
+    "tags": ["p", "v", "e", "g"]
+  },{
+    "thumb": "heve-300.png",
+    "title": "Hello, Velo!",
+    "tags": ["p","d"]
+  },{
+    "thumb": "joynews-300.png",
+    "title": "JoyNews",
+    "tags": ["p","m"]
+  },{
+    "thumb": "jugger-300.png",
+    "title": "Jugger California",
+    "tags": ["v","p","g"]
+  },{
+    "thumb": "si-300.png",
+    "title": "savageinter.net",
+    "tags": ["v","w"]
+  },{
+    "thumb": "m4s-300.png",
+    "title": "March for Science Toronto",
+    "tags": ["v","w"]
+  },{
+    "thumb": "resist-300.png",
+    "title": "#resist shop",
+    "tags": ["p"]
+  },{
+    "thumb": "cs160-300.png",
+    "title": "Intro User Interface Design Instruction",
+    "tags": ["d","e"]
+  },{
+    "thumb": "critical-300.png",
+    "title": "Critical Practices",
+    "tags": ["d","p"]
+  },{
+    "thumb": "h2oiq-300.png",
+    "title": "H2O IQ",
+    "tags": ["p","d","w"]
+  },{
+    "thumb": "docsavage-300.png",
+    "title": "Doc Savage's Intensive Mental Training",
+    "tags": ["e","v","g"]
   }]
 }

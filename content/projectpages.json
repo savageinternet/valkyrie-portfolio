@@ -14,7 +14,7 @@
       },{
         "title":"Locatrix on Google Play",
         "href":"https://play.google.com/store/apps/details?id=net.savageinter.locatrix"
-      }],
+      }]
   },{
     "thumb": "zombie-300.png",
     "title": "Zombie Rendezvous",
@@ -22,7 +22,7 @@
     "deliverable": "Printable game booklet",
     "description": "Zombie Rendezvous is a game designed to be playable in 30 minutes or less by children ages 4-12 who attended an open air science festival in Toronto. The game consists of four stations that players must visit; a zombie, a doctor, a pathologist, and a researcher. The core of the game is a paper booklet, handed to players at the beginning of the game when they are infected by a zombie. Through the course of curing their infection, players learn about the difference between bacterial, viral, and fungal infections, how doctors prevent the spread of diseases, how pathologists grow cultures of diseases, and how researchers design drugs.\nI designed and illustrated the entire booklet, with the exception of the three cover zombies.",
     "duration": "2 months",
-    "imagedir": "img/zombies/",
+    "imagedir": "img/zombie/",
     "client":"SciCommTO",
     "links":[{
         "title":"Printer-friendly booklet",
@@ -30,7 +30,7 @@
       },{
         "title":"Blog Post",
         "href":"https://blog.savageinter.net/blog/2017/05/15/zombies/"
-      }],
+      }]
   },{
     "thumb": "puzzlingmadness-300.png",
     "title": "The Puzzling Madness of John A. Macdonald",
@@ -43,7 +43,7 @@
     "links":[{
         "title":"Puzzling Madness Website",
         "href":"https://puzzlingmadness.ca"
-      }],
+      }]
   },{
     "thumb": "heve-300.png",
     "title": "Hello, Velo!",
@@ -68,7 +68,7 @@
       },{
         "title":"Technical Walkthrough Video",
         "href":"https://www.youtube.com/watch?v=YQAL1LEk7Jk"
-      }],
+      }]
   },{
     "thumb": "joynews-300.png",
     "title": "JoyNews",
@@ -87,13 +87,13 @@
     },{
       "title":"Code on Github",
       "href":"https://github.com/joynews/joynews"
-    }],
+    }]
   },{
     "thumb": "jugger-300.png",
     "title": "Jugger California",
     "tags": ["v","p","g"],
     "deliverable": "Logo, uniform designs, various physical objects, Instructable",
-    "description": "Jugger California is a San Francisco-area league for the sport of jugger. Jugger—a blend of capture the flag, fencing, and rugby—enjoys relative popularity in Germany, but my partner and I introduced the game to the Bay Area. I designed our logo and uniforms, along with several giveaways (3D printable cookie cutters, beer labels, engraved pint glasses) for players and other teams we met at tournaments. I created an Instructable, later featured, to document the building process. My partner and I gave a presentation at Nerd Nite East Bay on the history of the sport, for which I crafted the presentation slides.",
+    "description": "Jugger California is a San Francisco-area league for the sport of jugger. Jugger&mdash;a blend of capture the flag, fencing, and rugby&mdash;enjoys relative popularity in Germany, but my partner and I introduced the game to the Bay Area. I designed our logo and uniforms, along with several giveaways (3D printable cookie cutters, beer labels, engraved pint glasses) for players and other teams we met at tournaments. I created an Instructable, later featured, to document the building process. My partner and I gave a presentation at Nerd Nite East Bay on the history of the sport, for which I crafted the presentation slides.",
     "duration": "3 years",
     "imagedir": "img/jugger",
     "client":"",
@@ -103,7 +103,7 @@
     },{
       "title":"East Bay Nerd Nite Presentation",
       "href":"https://youtu.be/LZ1WYXq14u0?t=2h52m40s"
-    }],
+    }]
   },{
     "thumb": "si-300.png",
     "title": "savageinter.net",
@@ -116,7 +116,7 @@
     "links":[{
       "title":"Live Site",
       "href":"https://savageinter.net"
-    }],
+    }]
   },{
     "thumb": "m4s-300.png",
     "title": "March for Science Toronto",
@@ -129,7 +129,7 @@
     "links":[{
       "title":"Live Site",
       "href":"https://sciencemarchto.ca"
-    }],
+    }]
   },{
     "thumb": "resist-300.png",
     "title": "#resist shop",
@@ -142,7 +142,7 @@
     "links":[{
       "title":"#resist Shop on Shapeways",
       "href":"https://www.shapeways.com/shops/valkyrie"
-    }],
+    }]
   },{
     "thumb": "cs160-300.png",
     "title": "Intro User Interface Design Instruction",
@@ -155,7 +155,7 @@
     "links":[{
       "title":"Course Website",
       "href":"https://cs160.valkyriesavage.com"
-    }],
+    }]
   },{
     "thumb": "critical-300.png",
     "title": "Critical Practices",
@@ -177,7 +177,7 @@
     },{
       "title":"'Bear Necessities' Package Delivery Notification Machine",
       "href":"https://www.hackster.io/symbiotic-circle/the-bear-necessities-designing-for-communal-consumption-86e683"
-    }],
+    }]
   },{
     "thumb": "h2oiq-300.png",
     "title": "H2O IQ",
@@ -202,7 +202,7 @@
     },{
       "title":"Device Presentation Slides",
       "href":"https://docs.google.com/presentation/d/1S5aFqThC5lc4pM-Y68lGRSMbOaRiJMXD9njBcWfeR2Q/edit"
-    }],
+    }]
   },{
     "thumb": "docsavage-300.png",
     "title": "Doc Savage's Intensive Mental Training",
@@ -215,6 +215,6 @@
     "links":[{
       "title":"Printable Game Board",
       "href":"https://drive.google.com/file/d/0BzrCBpMEE7AVTlpheFE2VDR0NWM/view?usp=sharing"
-    }],
+    }]
   }]
 }
