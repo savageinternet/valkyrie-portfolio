@@ -55,21 +55,19 @@ def make_project_pages(projects):
         make_project_page(project)
 
 
-"""
-def make_research_pages(researchPages):
-    for researchPage in researchPages['researchpages']:
-        base = copy.copy(HTML_RESEARCH_PAGE)
-        researchPage['links'] = format_links(researchPage['links'])
-        researchPage['thumbnail'] = format_thumbnail(researchPage['thumb'])
-        researchPage['abstract'] = researchPage['abstract'].replace('\n', HTML_BR)
-        if researchPage['video'] is not '':
-            researchPage['video'] = format_youtube(researchPage['video'])
-        formatted = base % researchPage
-        f = OUT_DIR + re.sub('[!@#$\' ,:]', '', researchPage['title'].lower()) + '.html'
-        f = open(f, 'w+')
-        f.write(formatted)
-        f.close()
-"""
+def make_research_page(research):
+    page_title = research['title'] + ' - Valkyrie Savage\'s Research'
+    html = render('researchPage', {
+        'pageTitle': page_title,
+        'research': research
+    })
+    filename = get_project_filename(research)
+    make_page(filename, html)
+
+
+def make_research_pages(research):
+    for project in research:
+        make_research_page(project)
 
 
 def load_json(fname):
@@ -78,8 +76,10 @@ def load_json(fname):
 
 
 def get_project_filename(project):
-    title = project['title'].lower()
-    title = re.sub('[!@#$\' ,:]', '', title)
+    title = project.get('titleShort', project['title'])
+    title = title.lower()
+    title = re.sub('[!@#$\'\. ,:]+', '-', title)
+    title = title.strip('-')
     return title + '.html'
 
 
@@ -107,7 +107,7 @@ def main():
         project['filename'] = get_project_filename(project)
     make_index_page(projects, research)
     make_project_pages(projects)
-    #make_research_pages(research)
+    make_research_pages(research)
 
 
 if __name__ == '__main__':

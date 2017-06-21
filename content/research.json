@@ -9,7 +9,7 @@
     {"title": "Download Dissertation", "href": "papers/thesis.pdf"},
     {"title": "Presentation Video", "href": "https://www.youtube.com/watch?v=SgZUxloEo4s"}
   ],
-  "video": "https://www.youtube.com/watch?v=SgZUxloEo4s"
+  "video": "https://www.youtube.com/embed/SgZUxloEo4s"
 },{
   "thumb": "drillsergeant-300.png",
   "title": "Drill Sergeant: Supporting Physical Construction Projects through an Ecosystem of Augmented Tools",
@@ -22,7 +22,7 @@
     {"title": "Download Paper", "href": "papers/drillsergeant.pdf"},
     {"title": "Video", "href": "https://www.youtube.com/watch?v=y8Qvgf1dBqA"}
   ],
-  "video": "https://www.youtube.com/watch?v=y8Qvgf1dBqA"
+  "video": "https://www.youtube.com/embed/y8Qvgf1dBqA"
 },{
   "thumb": "3dp-300.png",
   "title": "3-D Printing Interactive Devices",
@@ -46,7 +46,7 @@
     {"title": "Download Paper", "href": "papers/mmarks.pdf"},
     {"title": "Video", "href": "https://www.youtube.com/watch?v=xzKKK6yF5Dw"}
   ],
-  "video": "https://www.youtube.com/watch?v=xzKKK6yF5Dw"
+  "video": "https://www.youtube.com/embed/xzKKK6yF5Dw"
 },{
   "thumb": "lamello-300.jpg",
   "title": "Lamello: Passive Acoustic Sensing for Tangible Input Components",
@@ -59,7 +59,7 @@
     {"title": "Download Paper", "href": "papers/lamello.pdf"},
     {"title": "Video", "href": "https://www.youtube.com/watch?v=695ke7P6HM4"}
   ],
-  "video": "https://www.youtube.com/watch?v=695ke7P6HM4"
+  "video": "https://www.youtube.com/embed/695ke7P6HM4"
 },{
   "thumb": "sot-300.png",
   "title": "A Series of Tubes: adding interactivity to 3D prints using internal pipes",
@@ -72,7 +72,7 @@
     {"title": "Download Paper", "href": "papers/sot.pdf"},
     {"title": "Video", "href": "https://www.youtube.com/watch?v=PiFbjOkYC4M"}
   ],
-  "video": "https://www.youtube.com/watch?v=PiFbjOkYC4M"
+  "video": "https://www.youtube.com/embed/PiFbjOkYC4M"
 },{
   "thumb": "sauron-300.png",
   "title": "Sauron: embedded single-camera sensing of printed physical user interfaces",
@@ -85,7 +85,7 @@
     {"title": "Download Paper", "href": "papers/sauron.pdf"},
     {"title": "Video", "href": "https://www.youtube.com/watch?v=GNdCnmm-cw8"}
   ],
-  "video": "https://www.youtube.com/watch?v=GNdCnmm-cw8"
+  "video": "https://www.youtube.com/embed/GNdCnmm-cw8"
 },{
   "thumb": "midas-300.png",
   "title": "Midas: fabricating custom capacitive touch sensors to prototype interactive objects",
@@ -98,5 +98,5 @@
     {"title": "Download Paper", "href": "papers/midas.pdf"},
     {"title": "Video", "href": "https://www.youtube.com/watch?v=lS60AH2_Pbs"}
   ],
-  "video": "https://www.youtube.com/watch?v=lS60AH2_Pbs"
+  "video": "https://www.youtube.com/embed/lS60AH2_Pbs"
 }]

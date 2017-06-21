@@ -7,6 +7,7 @@ less: npm
 	mkdir -p build/css
 	./node_modules/less/bin/lessc less/style.less build/css/style.css
 	./node_modules/less/bin/lessc less/projectPage.less build/css/projectPage.css
+	./node_modules/less/bin/lessc less/researchPage.less build/css/researchPage.css
 
 pyth: htmlize.py
 	python htmlize.py

@@ -100,6 +100,10 @@ section {
   position: fixed;
   width: 100%;
   z-index: 1;
+  a {
+    color: @color-white;
+    text-decoration: none;
+  }
 }
 
 #nav {
@@ -112,9 +116,7 @@ section {
 
 #nav > a,
 #nav > span {
-  color: @color-white;
   margin-right: 32px;
-  text-decoration: none;
 }
 #nav > span {
   color: @color-red;
@@ -244,7 +246,7 @@ section {
   background-color: fade(@color-dark-orange, 80%);
 }
 
-#research > .project {
+#research .project {
   border-color: @color-sun;
   .project-title {
     background-color: fade(@color-white, 80%);
