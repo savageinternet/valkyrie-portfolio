@@ -9,7 +9,8 @@ less: npm
 	./node_modules/less/bin/lessc less/projectPage.less build/css/projectPage.css
 	./node_modules/less/bin/lessc less/researchPage.less build/css/researchPage.css
 
-pyth: htmlize.py
+pyth: requirements.txt htmlize.py
+	pip install -r requirements.txt
 	python htmlize.py
 
 copy: pyth less
