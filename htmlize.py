@@ -1,66 +1,82 @@
-import copy
+import pystache
+
 import json
 import os
 import re
 import sys
 from html_templates import *
 
-IN_DIR = 'content/'
-OUT_DIR = 'build/content/'
+ROOT = os.path.dirname(os.path.realpath(__file__))
+IN_DIR = os.path.join(ROOT, 'content')
+PROJECTS_FILENAME = os.path.join(IN_DIR, 'projects.json')
+RESEARCH_FILENAME = os.path.join(IN_DIR, 'research.json')
+OUT_DIR = os.path.join(ROOT, 'build')
+
+RENDERER = pystache.Renderer(search_dirs=[IN_DIR])
+TEMPLATE_CACHE = {}
 
 
-def format_several(formatString, formattables):
-    allThingies = ''
-    for formattable in formattables:
-        allThingies = allThingies + format_one(formatString, formattable)
-    return allThingies
+def render(template_name, data):
+    if template_name not in TEMPLATE_CACHE:
+        template_path = os.path.join(IN_DIR, template_name + '.mustache')
+        with open(template_path) as template_file:
+            template_str = template_file.read()
+            TEMPLATE_CACHE[template_name] = pystache.parse(template_str)
+    return RENDERER.render(TEMPLATE_CACHE[template_name], data)
 
 
-def format_one(formatString, formattable):
-    return formatString % formattable
+def is_image(f):
+    return f.endswith('.jpg') or f.endswith('.png') or f.endswith('.jpeg')
 
 
-def format_links(links):
-    return format_several(HTML_LINK, links)
-
-
-def format_images(images):
-    return format_several(HTML_IMG, images)
-
-
-def format_image(image):
-    return format_one(HTML_IMG, image)
-
-
-def format_thumbnail(thumbnail):
-    return format_one(HTML_IMG, {'src': '/img/'+thumbnail})
-
-
-def format_youtube(video):
-    return format_one(HTML_YOUTUBE, {'video': video})
-
-
-def images_in_dir(dir):
-    dir = os.path.join(os.getcwd(), dir)
-    images = [{'src': '/img/' + f} for f in os.listdir(dir) if f.endswith('.jpg') or f.endswith('.png') or f.endswith('.jpeg')]
+def images_in_dir(dir_name):
+    dir_path = os.path.join(ROOT, 'img', dir_name)
+    images = []
+    for f in os.listdir(dir_path):
+        if is_image(f):
+            src = '/img/' + dir_name + '/' + f
+            images.append({'src': src})
     return images
 
 
-def project_pages(projectPages):
-    for projectPage in projectPages['projectpages']:
-        base = copy.copy(HTML_PROJECT_PAGE)
-        projectPage['links'] = format_links(projectPage['links'])
-        projectPage['thumbnail'] = format_thumbnail(projectPage['thumb'])
-        projectPage['images'] = format_images(images_in_dir(projectPage['imagedir']))
-        projectPage['description'] = projectPage['description'].replace('\n', HTML_BR)
-        formatted = base % projectPage
-        f = OUT_DIR + re.sub('[!@#$\' ,:]', '', projectPage['title'].lower()) + '.html'
-        f = open(f, 'w+')
-        f.write(formatted)
-        f.close()
+def make_page(filename, html):
+    path = os.path.join(OUT_DIR, filename)
+    print('Generating {0}...'.format(path))
+    with open(path, 'w+') as f:
+        f.write(html)
 
 
-def research_pages(researchPages):
+def make_index_page(projects, research):
+    html = render('index', {
+      'pageTitle': 'Valkyrie Savage - Designer',
+      'projects': projects,
+      'research': research
+    })
+    make_page('index.html', html)
+
+
+def get_project_filename(project):
+    title = project['title'].lower()
+    title = re.sub('[!@#$\' ,:]', '', title)
+    return title + '.html'
+
+
+def make_project_page(project):
+    page_title = project['title'] + ' - Valkyrie Savage\'s Portfolio'
+    html = render('projectPage', {
+        'pageTitle': page_title,
+        'project': project
+    })
+    filename = get_project_filename(project)
+    make_page(filename, html)
+
+
+def make_project_pages(projects):
+    for project in projects:
+        make_project_page(project)
+
+
+def make_research_pages(researchPages):
     for researchPage in researchPages['researchpages']:
         base = copy.copy(HTML_RESEARCH_PAGE)
         researchPage['links'] = format_links(researchPage['links'])
@@ -76,14 +92,17 @@ def research_pages(researchPages):
 
 
 def load_json(fname):
-    f = open(fname)
-    jsonz = ''.join(f.readlines())
-    jsonz = json.loads(jsonz)
-    return jsonz
+    with open(fname) as jsonFile:
+        return json.load(jsonFile)
 
 
 def main():
-    projectPages = load_json('content/projectpages.json')
-    project_pages(projectPages)
-    researchPages = load_json('content/researchpages.json')
-    research_pages(researchPages)
+    projects = load_json(PROJECTS_FILENAME)
+    research = load_json(RESEARCH_FILENAME)
+    make_index_page(projects, research)
+    make_project_pages(projects)
+    #make_research_pages(research)
+
+
+if __name__ == '__main__':
+    main()

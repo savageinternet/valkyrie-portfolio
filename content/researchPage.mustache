@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+{{> head}}
+<body>
+<div id="root">
+  {{> header}}
+  <div id="body">
+    <div id="main">
+      <div id="thumbnail">
+        <img src="/img/{{thumbnail}}" />
+      </div>
+      <div id="info">
+        <div id="title">{{title}}</div>
+        <div id="authors">{{authors}}</div>
+          <div id="venue">{{venue}}</div>
+        <div id="links">
+          {{#links}}
+            <a href="{{href}}">{{title}}</a>
+          {{/links}}
+        </div>
+      </div>
+      <div id="abstract" class="dark-bg">
+         {{abstract}}
+       </div>
+       <div id="video">
+         <iframe width="560" height="315" src="{{video}}" frameborder="0" allowfullscreen></iframe>
+       </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
