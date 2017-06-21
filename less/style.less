@@ -194,12 +194,6 @@ section {
   }
 }
 
-#projects {
-  text-align: left;
-  width: 1008px;
-  margin: 24px auto 0 auto;
-}
-
 .project {
   border: 6px solid @color-light-bg;
   border-radius: 16px;
@@ -207,7 +201,7 @@ section {
   margin: 6px;
   transition: all 200ms ease-in-out;
   &.active {
-    border: 6px solid @color-dark-orange;
+    border-color: @color-dark-orange;
   }
 }
 
@@ -244,25 +238,8 @@ section {
   font-size: 1.4rem;
 }
 
-.project-tags {
-  position: absolute;
-  top: 16px;
-  right: 16px;
-}
-
-.project-tags > .tag {
-  height: 50px;
-  width: 50px;
-  text-align: center;
-  line-height: 30px;
-  border-radius: 25px;
-  opacity: 0;
-  transition: opacity 100ms;
-}
-
-.project-wrapper:hover > .project-tags > .tag,
-.project-tags > .tag.active {
-  opacity: 1;
+#research > .project {
+  border-color: @color-sun;
 }
 
 // CONSULTING PAGE
