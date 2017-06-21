@@ -228,18 +228,27 @@ section {
   bottom: 0px;
   text-align: left;
   width: 100%;
-  background-color: fadeout(@color-light-bg, 30%);
+  background-color: fade(@color-sun, 80%);
   height: 75px;
   opacity: 1;
   padding: 8px;
   border-radius: 0 0 10px 10px;
-  transition: height 100ms, opacity 100ms;
+  transition: all 200ms ease-in-out;
   color: @color-black;
   font-size: 1.4rem;
+  line-height: 1.25;
+}
+
+.project.active .project-title {
+  background-color: fade(@color-dark-orange, 80%);
 }
 
 #research > .project {
   border-color: @color-sun;
+  .project-title {
+    background-color: fade(@color-white, 80%);
+    height: 50px;
+  }
 }
 
 #map-wrapper {
