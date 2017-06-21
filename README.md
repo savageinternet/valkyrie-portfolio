@@ -1,10 +1,20 @@
-to build:
+## Build
 
+```bash
 make
+```
 
-to deploy:
+## Run in development
 
-log in to oracle.savageinter.net
+```bash
+make run
+```
+
+## Deploy
+
+```bash
+ssh savage@oracle.savageinter.net
 cd /var/www/html/savageinter.net
 git pull
 make
+```

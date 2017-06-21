@@ -21,7 +21,7 @@
 @color-dark-bg: @color-sun;
 @color-dark-fg: @color-white;
 @color-link: @color-white;
-@color-selected-border: lighten(@color-fg, 20%);
+@color-selected-border: lighten(@color-light-fg, 20%);
 
 // MAIN
 
@@ -102,7 +102,7 @@ a:active {
   text-decoration: none;
 }
 #nav > span {
-  color: @color-r;
+  color: @color-red;
 }
 
 #logo {
@@ -111,10 +111,6 @@ a:active {
 
 #logo > a > img {
   height: 75px;
-}
-
-#body {
-  border-top: 3px solid @color-g;
 }
 
 #main {
@@ -153,7 +149,7 @@ a:active {
 }
 
 .project {
-  border: 3px solid @color-bg;
+  border: 3px solid @color-light-bg;
   border-radius: 16px 16px 0 0;
   display: inline-block;
 }
@@ -182,13 +178,13 @@ a:active {
   bottom: 7px;
   text-align: left;
   width: ~"calc(100% - 14px)";
-  background-color: fadeout(@color-bg, 30%);
+  background-color: fadeout(@color-light-bg, 30%);
   height: 50px;
   opacity: 0;
   padding: 8px;
   border-radius: 0 0 10px 10px;
   transition: height 100ms, opacity 100ms;
-  color: @color-r;
+  color: @color-red;
   .heading();
 }
 
@@ -246,6 +242,6 @@ a:active {
 
 #right > h2,
 .team-member > h2 {
-  color: @color-r;
+  color: @color-red;
   .heading();
 }

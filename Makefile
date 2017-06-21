@@ -1,9 +1,13 @@
-all: copy pyth
+all: npm copy pyth
 
-pyth: python htmlize.py
+npm: package.json
+	npm install
+
+pyth:
+	python htmlize.py
 
 copy: build/css/style.css build/content/projects.html build/index.html
-	cp -r consulting.html favicon.ico fonts google2ef4f2b4bcd33bf5.html img js robots.txt team.html build
+	cp -r favicon.ico fonts img js robots.txt build
 
 build/css/style.css: less/style.less
 	mkdir -p build/css
@@ -15,6 +19,9 @@ build/content/projects.html: content/projects.json content/projects.mustache
 
 build/index.html: index.html.tpl build/content/projects.html
 	sed -e '/{PROJECTS}/{r build/content/projects.html' -e 'd}' index.html.tpl > build/index.html
+
+run:
+	cd build && python -m http.server
 
 clean:
 	rm -r build
