@@ -4,7 +4,6 @@ import json
 import os
 import re
 import sys
-from html_templates import *
 
 ROOT = os.path.dirname(os.path.realpath(__file__))
 IN_DIR = os.path.join(ROOT, 'content')
@@ -76,6 +75,7 @@ def make_project_pages(projects):
         make_project_page(project)
 
 
+"""
 def make_research_pages(researchPages):
     for researchPage in researchPages['researchpages']:
         base = copy.copy(HTML_RESEARCH_PAGE)
@@ -89,6 +89,7 @@ def make_research_pages(researchPages):
         f = open(f, 'w+')
         f.write(formatted)
         f.close()
+"""
 
 
 def load_json(fname):

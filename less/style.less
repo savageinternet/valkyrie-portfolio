@@ -2,12 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 
-.heading() {
-  font-weight: 900;
-  font-style: italic;
-  font-size: 32px;
-}
-
 // COLORS
 @color-sun: #ffcb57;
 @color-dark-orange: #f05a28;
@@ -18,8 +12,8 @@
 @color-light-bg: @color-white;
 @color-light-fg: @color-black;
 @color-dark-bg: @color-sun;
-@color-dark-fg: @color-white;
-@color-link: @color-white;
+@color-dark-fg: @color-black;
+@color-link: @color-black;
 @color-selected-border: lighten(@color-light-fg, 20%);
 
 // MAIN
@@ -27,10 +21,14 @@
 body, html {
   padding: 0;
   margin: 0;
-  font-family: 'Josefin Sans', sans-serif;
-  color: @color-light-fg;
+}
+
+body {
   background-color: @color-light-bg;
-  font-size: 15pt;
+  color: @color-light-fg;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 62.5%;
+  line-height: 1.5;
 }
 
 .dark-bg {
@@ -69,28 +67,51 @@ a:active {
   display: none;
 }
 
-// LAYOUT
-
-#root {
+section {
+  padding: 16px 32px;
+  & > h2 {
+    margin: 0;
+    margin-bottom: 32px;
+  }
+  .bodytext {
+    text-align: left;
+  }
 }
+
+.lrc {
+  & > .lr {
+    margin: 64px 0 32px 0;
+    & > .left {
+      text-align: left;
+    }
+    & > .right {
+      float: right;
+    }
+  }
+}
+
+// LAYOUT
 
 #header {
   background-color: fade(@color-dark-orange, 70%);
-  height: 100px;
+  font-weight: 900;
+  height: 64px;
   position: fixed;
   width: 100%;
+  z-index: 1;
 }
 
 #nav {
   float: right;
-  line-height: 90px;
+  font-size: 2rem;
+  line-height: 56px;
   text-align: right;
   padding: 8px;
-  .heading();
 }
 
 #nav > a,
 #nav > span {
+  color: @color-white;
   margin-right: 32px;
   text-decoration: none;
 }
@@ -99,17 +120,45 @@ a:active {
 }
 
 #logo {
-  padding: 8px 8px 8px 31px;
+  padding: 8px;
+}
+
+#logo > a {
+  display: inline-block;
+  margin: 0 16px;
+  vertical-align: middle;
 }
 
 #logo > a > img {
-  height: 75px;
+  height: 48px;
+}
+
+#topbar-text {
+  color: @color-white;
+  display: inline-block;
+  font-size: 2.4rem;
+  vertical-align: middle;
 }
 
 #main {
-  padding: 8px;
-  margin: auto;
+  font-size: 1.2rem;
   text-align: center;
+}
+
+#hero {
+  position: relative;
+  max-width: 100%;
+  & > img {
+    width: 100%;
+  }
+  & > #name {
+    position: absolute;
+    left: 24px;
+    bottom: 24px;
+    color: @color-white;
+    font-size: 4rem;
+    margin: 0;
+  }
 }
 
 #tags > .tag {
@@ -177,7 +226,6 @@ a:active {
   border-radius: 0 0 10px 10px;
   transition: height 100ms, opacity 100ms;
   color: @color-red;
-  .heading();
 }
 
 .project-wrapper:hover > .project-title {
@@ -235,5 +283,4 @@ a:active {
 #right > h2,
 .team-member > h2 {
   color: @color-red;
-  .heading();
 }
