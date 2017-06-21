@@ -24,20 +24,6 @@ def render(template_name, data):
     return RENDERER.render(TEMPLATE_CACHE[template_name], data)
 
 
-def is_image(f):
-    return f.endswith('.jpg') or f.endswith('.png') or f.endswith('.jpeg')
-
-
-def images_in_dir(dir_name):
-    dir_path = os.path.join(ROOT, 'img', dir_name)
-    images = []
-    for f in os.listdir(dir_path):
-        if is_image(f):
-            src = '/img/' + dir_name + '/' + f
-            images.append({'src': src})
-    return images
-
-
 def make_page(filename, html):
     path = os.path.join(OUT_DIR, filename)
     print('Generating {0}...'.format(path))
@@ -52,12 +38,6 @@ def make_index_page(projects, research):
       'research': research
     })
     make_page('index.html', html)
-
-
-def get_project_filename(project):
-    title = project['title'].lower()
-    title = re.sub('[!@#$\' ,:]', '', title)
-    return title + '.html'
 
 
 def make_project_page(project):
@@ -97,9 +77,34 @@ def load_json(fname):
         return json.load(jsonFile)
 
 
+def get_project_filename(project):
+    title = project['title'].lower()
+    title = re.sub('[!@#$\' ,:]', '', title)
+    return title + '.html'
+
+
+def is_image(f):
+    return f.endswith('.jpg') or f.endswith('.png') or f.endswith('.jpeg')
+
+
+def images_in_dir(dir_name):
+    dir_path = os.path.join(ROOT, 'img', dir_name)
+    images = []
+    for f in os.listdir(dir_path):
+        if is_image(f):
+            src = '/img/' + dir_name + '/' + f
+            images.append(src)
+    return images
+
+
 def main():
     projects = load_json(PROJECTS_FILENAME)
+    for project in projects:
+        project['filename'] = get_project_filename(project)
+        project['images'] = images_in_dir(project['imagedir'])
     research = load_json(RESEARCH_FILENAME)
+    for project in research:
+        project['filename'] = get_project_filename(project)
     make_index_page(projects, research)
     make_project_pages(projects)
     #make_research_pages(research)

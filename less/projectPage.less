@@ -1,0 +1,53 @@
+html, body, #root, #body, #main, #project-images {
+  height: 100%;
+  max-height: 100%;
+}
+
+#main {
+  display: flex;
+  flex-direction: row;
+  padding-top: 64px;
+}
+
+#project-detail {
+  flex: 1;
+}
+
+#project-info {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: row;
+}
+
+#project-thumbnail {
+  display: inline-block;
+}
+
+#project-text {
+  padding: 6px 16px;
+  line-height: 1.25;
+  text-align: left;
+  & > #title {
+    font-size: 2rem;
+    padding-bottom: 40px;
+  }
+}
+
+#project-description {
+  bottom: 0;
+  margin: 16px 0 0 -32px;
+  padding: 16px 32px;
+  position: fixed;
+  z-index: -1;
+  & > p {
+    width: 50%;
+  }
+}
+
+#project-images {
+  flex: 1;
+  overflow: auto;
+  & > img {
+    width: 100%;
+  }
+}

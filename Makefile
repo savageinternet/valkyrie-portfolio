@@ -1,17 +1,18 @@
-all: npm copy pyth build/css/style.css
+all: npm less pyth copy
 
 npm: package.json
 	npm install
 
+less: npm
+	mkdir -p build/css
+	./node_modules/less/bin/lessc less/style.less build/css/style.css
+	./node_modules/less/bin/lessc less/projectPage.less build/css/projectPage.css
+
 pyth: htmlize.py
 	python htmlize.py
 
-copy: pyth build/css/style.css
+copy: pyth less
 	cp -r favicon.ico fonts img js robots.txt build
-
-build/css/style.css: less/style.less
-	mkdir -p build/css
-	./node_modules/less/bin/lessc less/style.less build/css/style.css
 
 run:
 	cd build && python -m http.server
