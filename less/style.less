@@ -3,15 +3,14 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 
 .heading() {
-  font-family: Roboto, sans-serif;
   font-weight: 900;
   font-style: italic;
   font-size: 32px;
 }
 
 // COLORS
-
-@color-sun: #ffcb58;
+@color-sun: #ffcb57;
+@color-dark-orange: #f05a28;
 @color-red: #d65a29;
 @color-white: #fff;
 @color-black: #322522;
@@ -25,13 +24,10 @@
 
 // MAIN
 
-@px-main-width: 1024px;
-
 body, html {
   padding: 0;
   margin: 0;
-  min-width: @px-main-width;
-  font-family: Muli, sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   color: @color-light-fg;
   background-color: @color-light-bg;
   font-size: 15pt;
@@ -76,21 +72,18 @@ a:active {
 // LAYOUT
 
 #root {
-  display: flex;
-  flex-direction: column;
 }
 
 #header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+  background-color: fade(@color-dark-orange, 70%);
   height: 100px;
-  width: @px-main-width;
-  margin: auto;
+  position: fixed;
+  width: 100%;
 }
 
 #nav {
+  float: right;
+  line-height: 90px;
   text-align: right;
   padding: 8px;
   .heading();
@@ -114,7 +107,6 @@ a:active {
 }
 
 #main {
-  width: @px-main-width;
   padding: 8px;
   margin: auto;
   text-align: center;
