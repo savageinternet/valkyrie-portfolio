@@ -14,7 +14,7 @@ make run
 
 ```bash
 ssh savage@oracle.savageinter.net
-cd /var/www/html/savageinter.net
+cd /var/www/html/valkyriesavage.com
 git pull
 make
 ```
