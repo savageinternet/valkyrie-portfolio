@@ -78,15 +78,15 @@ section {
   }
 }
 
-.lrc {
-  & > .lr {
-    margin: 64px 0 32px 0;
-    & > .left {
-      text-align: left;
-    }
-    & > .right {
-      float: right;
-    }
+.lr {
+  margin: 64px 0 32px 0;
+  & > .left {
+    text-align: left;
+  }
+  & > .right {
+    clear: both;
+    float: right;
+    text-align: right;
   }
 }
 
@@ -240,6 +240,24 @@ section {
 
 #research > .project {
   border-color: @color-sun;
+}
+
+#map-wrapper {
+  position: relative;
+}
+
+#card {
+  background-color: @color-white;
+  border: 16px solid fade(@color-dark-orange, 70%);
+  font-size: 1.4rem;
+  padding: 16px 32px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  & > #digital-coords {
+    height: 90px;
+  }
 }
 
 // CONSULTING PAGE
