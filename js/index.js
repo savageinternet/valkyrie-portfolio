@@ -5,11 +5,7 @@
       activeTagName = null,
       $tags = $$('#tags > .tag'),
       $projectsParent = $id('projects'),
-      $projects = $$('#projects > .project'),
-      $projectTags = $$('.project-tags > .tag'),
-      $details = $id('project_details'),
-      $title = $id('project_details_title'),
-      $description = $id('project_details_description');
+      $projects = $$('#projects > .project');
 
   // TAG SELECTION
 
@@ -20,22 +16,18 @@
   function deactivateTag(tagName) {
     var tagSelector = '#tags > .tag.' + tagName;
     $(tagSelector).classList.remove('active');
-    var projectTagSelector = '.project-tags > .tag.' + tagName;
-    $$(projectTagSelector).forEach(function($tag) {
-      $tag.classList.remove('active');
-      var $wrapper = $tag.parentNode.parentNode;
-      $wrapper.classList.remove(tagName);
+    var projectSelector = '.project.' + tagName;
+    $$(projectSelector).forEach(function($project) {
+      $project.classList.remove('active');
     });
   }
 
   function activateTag(tagName) {
     var tagSelector = '#tags > .tag.' + tagName;
     $(tagSelector).classList.add('active');
-    var projectTagSelector = '.project-tags > .tag.' + tagName;
-    $$(projectTagSelector).forEach(function($tag) {
-      $tag.classList.add('active');
-      var $wrapper = $tag.parentNode.parentNode;
-      $wrapper.classList.add(tagName);
+    var projectSelector = '.project.' + tagName;
+    $$(projectSelector).forEach(function($project) {
+      $project.classList.add('active');
     });
   }
 
@@ -64,43 +56,4 @@
   }
 
   $tags.forEach(attachTagListener);
-  $projectTags.forEach(attachTagListener);
-
-  // DETAILS BOX
-
-  var perRow = 3,
-      total = $projects.length;
-  function getInsertBeforeIndex(i) {
-    var j = (Math.floor(i / 3) + 1) * 3;
-    return Math.min(j, total);
-  }
-  function getOffsetClass(offset) {
-    return 'c' + offset + perRow;
-  }
-  var offsetClasses = [];
-  for (var offset = 0; offset < perRow; offset++) {
-    offsetClasses.push(getOffsetClass(offset));
-  }
-  $projects.forEach(function($project, i) {
-    var j = getInsertBeforeIndex(i);
-    var offsetClass = getOffsetClass(i % 3);
-    $project.addEventListener('click', function() {
-      var title = $project.querySelector('.project-title').textContent;
-      var description = $project.querySelector('.project-description').innerHTML;
-      $title.textContent = title;
-      $description.innerHTML = description;
-      if (j === total) {
-        $projectsParent.appendChild($details);
-      } else {
-        $projectsParent.insertBefore($details, $projects[j]);
-      }
-      $details.classList.remove('hide');
-      $details.classList.remove.apply($details.classList, offsetClasses);
-      $details.classList.add(offsetClass);
-      $projects.forEach(function($project) {
-        $project.classList.remove('selected');
-      });
-      $project.classList.add('selected');
-    }, false);
-  });
 })();

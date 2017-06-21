@@ -162,17 +162,11 @@ section {
 }
 
 #tags > .tag {
+  font-size: 1.6rem;
+  margin-bottom: 12px;
   margin-right: 24px;
-  margin-top: 12px;
   width: 176px;
-}
-
-.tag {
-  padding: 8px;
-  border-radius: 8px;
-  color: white;
   display: inline-block;
-  border: 2px solid black;
   cursor: pointer;
 
   // see: https://stackoverflow.com/questions/6900124/how-to-make-certain-text-not-selectable-with-css
@@ -181,24 +175,45 @@ section {
   -ms-user-select: none;
   -o-user-select: none;
   user-select: none;
+
+  &::after {
+    background-color: @color-sun;
+    border-radius: 24px;
+    content: '\00a0';
+    display: inline-block;
+    height: 48px;
+    position: relative;
+    right: 24px;
+    top: -8px;
+    transition: all 200ms ease-in-out;
+    width: 48px;
+    z-index: -1;
+  }
+  &.active::after {
+    background-color: @color-dark-orange;
+  }
 }
 
 #projects {
   text-align: left;
-  width: 972px;
+  width: 1008px;
   margin: 24px auto 0 auto;
 }
 
 .project {
-  border: 3px solid @color-light-bg;
-  border-radius: 16px 16px 0 0;
+  border: 6px solid @color-light-bg;
+  border-radius: 16px;
   display: inline-block;
+  margin: 6px;
+  transition: all 200ms ease-in-out;
+  &.active {
+    border: 6px solid @color-dark-orange;
+  }
 }
 
 .project-wrapper {
-  padding: 7px;
-  width: 314px;
-  height: 314px;
+  width: 300px;
+  height: 300px;
   border-radius: 12px;
   position: relative;
   cursor: pointer;
@@ -216,21 +231,17 @@ section {
 
 .project-title {
   position: absolute;
-  bottom: 7px;
+  bottom: 0px;
   text-align: left;
-  width: ~"calc(100% - 14px)";
+  width: 100%;
   background-color: fadeout(@color-light-bg, 30%);
-  height: 50px;
-  opacity: 0;
+  height: 75px;
+  opacity: 1;
   padding: 8px;
   border-radius: 0 0 10px 10px;
   transition: height 100ms, opacity 100ms;
-  color: @color-red;
-}
-
-.project-wrapper:hover > .project-title {
-  height: 150px;
-  opacity: 1;
+  color: @color-black;
+  font-size: 1.4rem;
 }
 
 .project-tags {
