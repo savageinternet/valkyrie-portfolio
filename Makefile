@@ -14,7 +14,7 @@ pyth: requirements.txt htmlize.py
 	python htmlize.py
 
 copy: pyth less
-	cp -r favicon.ico fonts img js robots.txt build
+	cp -r google2ef4f2b4bcd33bf5.html favicon.ico fonts img js robots.txt build
 
 run:
 	cd build && python -m http.server
