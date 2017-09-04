@@ -13,9 +13,7 @@ html, body, #root, #body, #main {
 }
 
 #project-info {
-  align-items: flex-end;
-  display: flex;
-  flex-direction: row;
+  display: block;
 }
 
 #project-thumbnail {
@@ -47,6 +45,14 @@ html, body, #root, #body, #main {
 
 section {
   padding: 16px 32px;
+}
+
+@media only screen and (min-width:600px) {
+  #project-info {
+    align-items: flex-end;
+    display: flex;
+    flex-direction: row;
+  }
 }
 
 @media only screen and (min-width:1024px) {
