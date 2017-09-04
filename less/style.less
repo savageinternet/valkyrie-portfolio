@@ -81,13 +81,22 @@ section {
 
 .lr {
   margin: 64px 0 32px 0;
+  width: 100%;
   & > .left {
+    width: 50%;
     text-align: left;
   }
   & > .right {
+    width: 50%;
     clear: both;
     float: right;
     text-align: right;
+  }
+  & > .pop {
+    float: none;
+    display: block;
+    width: 100%;
+    clear: both;
   }
 }
 
@@ -106,20 +115,56 @@ section {
   }
 }
 
+#nav > span {
+  color: @color-red;
+}
+
 #nav {
   float: right;
+  list-style: none;
   font-size: 2rem;
-  line-height: 56px;
+  padding: 0;
+  margin-right: 8px;
+  margin-top: 16px;
   text-align: right;
+}
+
+#nav::before {
+  color: white;
+  content: '\2261';
+  cursor: pointer;
+  font-size: 4rem;
+  line-height: 32px;
   padding: 8px;
 }
 
-#nav > a,
-#nav > span {
-  margin-right: 32px;
+#nav:hover::before {
+  background-color: @color-red;
 }
-#nav > span {
-  color: @color-red;
+
+#nav:hover > li {
+  background-color: @color-red;
+  display: block;
+}
+
+#nav > li {
+  display: none;
+  font-size: 1.4rem;
+  padding: 8px 0;
+  transition: background-color 200ms;
+}
+
+#nav > li:last-child {
+  border-right: 0;
+}
+
+#nav > li > a {
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: underline;
+  margin: 0 12px;
+  padding: 8px;
 }
 
 #logo {
@@ -151,16 +196,18 @@ section {
 #hero {
   position: relative;
   max-width: 100%;
+  max-height: 100%;
   & > img {
     width: 100%;
   }
   & > #name {
     position: absolute;
     left: 24px;
-    bottom: 24px;
+    bottom: 8px;
     color: @color-white;
     font-size: 4rem;
     margin: 0;
+    display:none;
   }
 }
 
@@ -207,24 +254,20 @@ section {
   &.active {
     border-color: @color-dark-orange;
   }
+  width:100%;
 }
 
 .project-wrapper {
-  width: 300px;
+  width: 100%;
   height: 300px;
-  border-radius: 12px;
   position: relative;
   cursor: pointer;
+  background-size: cover;
+  background-position: 0% 25%;
 }
 
 .wrapper-color(@color) {
   background-color: lighten(@color, 20%);
-}
-
-.project-image {
-  border-radius: 10px;
-  width: 300px;
-  height: 300px;
 }
 
 .project-title {
@@ -236,7 +279,6 @@ section {
   height: 75px;
   opacity: 1;
   padding: 8px;
-  border-radius: 0 0 10px 10px;
   transition: all 200ms ease-in-out;
   color: @color-black;
   font-size: 1.4rem;
@@ -257,6 +299,10 @@ section {
 
 #map-wrapper {
   position: relative;
+  background-image: url(/img/map.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 700px;
 }
 
 #card {
@@ -265,41 +311,87 @@ section {
   font-size: 1.4rem;
   padding: 16px 32px;
   position: absolute;
+  width: 75%;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
   & > #digital-coords {
-    height: 90px;
+    height: 150px;
   }
 }
 
-// CONSULTING PAGE
+@media only screen and (min-width: 734px) {
+  .project {
+    width: auto;
+  }
 
-#left {
-  width: 300px;
-  display: inline-block;
-  text-align: left;
+  .project-wrapper {
+    width: 300px;
+    height: 300px;
+    border-radius: 12px;
+    position: relative;
+    cursor: pointer;
+  }
+
+  .project-title {
+    border-radius: 0 0 10px 10px;
+  }
 }
 
-#left > .client {
-  display: inline-block;
-  padding: 10px;
+@media only screen and (min-width: 1024px) {
+  #nav {
+    float: right;
+    font-size: 1.8rem;
+    line-height: 10px;
+    text-align: right;
+    padding: 8px;
+    margin-left: -6px;
+    margin-right: -6px;
+  }
+
+  #nav:hover {
+    background-color: transparent;
+  }
+
+  #nav:hover::before {
+    background-color: transparent;
+  }
+
+  #nav::before {
+    content: none;
+  }
+
+  #nav > li {
+    display: inline-block;
+    font-size: 1.6rem;
+    padding: 0;
+    transition: none;
+  }
+
+  #nav:hover > li {
+    display: inline-block;
+    text-decoration: underline;
+    background-color: transparent;
+  }
+
+  #nav > a,
+  #nav > span {
+    margin-right: 24px;
+  }
 }
 
-#left > .client > img {
-  width: 120px;
-  height: 120px;
-}
+@media only screen and (min-width: 1280px) {
+  #hero > #name {
+    display: block;
+  }
 
-#right {
-  width: ~"calc(100% - 320px)";
-  display: inline-block;
-  vertical-align: top;
-  padding: 0 16px;
-  text-align: left;
-}
+  .pop {
+    display: inline-block;
+  }
 
-#right > h2,
-.team-member > h2 {
-  color: @color-red;
+  #card {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+  }
 }
