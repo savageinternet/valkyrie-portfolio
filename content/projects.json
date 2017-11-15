@@ -34,7 +34,7 @@
   "thumb": "puzzlingmadness-300.png",
   "title": "Puzzling Madness of John A. Macdonald",
   "tags": ["p", "v", "e", "g"],
-  "deliverable": "website and paper materials",
+  "deliverable": "various digital and physical materials",
   "description": "The Puzzling Madness of John A. Macdonald is a puzzle/scavenger hunt across Downtown Toronto. Designed for the Canada 150 celebration, it features puzzles set in Toronto of 1867, using historical handbills, maps, and sites. I am the art director and designer for the project, photographing and creating ad campaigns, crafting print and physical props, costuming actors, co-supervising auditions and rehearsals, and running game experience tests.",
   "duration": "8 months (in progress)",
   "imagedir": "pm",
@@ -77,7 +77,7 @@
   "title": "JoyNews",
   "tags": ["p","m"],
   "deliverable": "phone case prototype and website",
-  "description": "As part of Toronto's 2017 Comedy Hack Day, my partner and I worked with another designer and a comedian to develop a hardware prototype of a system that makes it nicer for people to read the news. Our system integrates real-time javascript-based emotion detection as well as the HTML5 vibration API.\nI was the primary visual designer for this project, creating the logo, the layout of the website, as well as the slideshow.",
+  "description": "As part of Toronto's 2017 Comedy Hack Day, my partner and I worked with another designer and a comedian to develop a hardware prototype of a system that makes it nicer for people to read the news. Our system integrates real-time javascript-based emotion detection as well as the HTML5 vibration API.\nI was the primary visual designer for this project, creating the logo, the layout of the website, as well as the slideshow; I contributed to the shaping of the phone case.",
   "duration": "1 day",
   "imagedir": "joynews",
   "client":"Toronto Comedy Hack Day",
@@ -106,20 +106,11 @@
   },{
     "title":"East Bay Nerd Nite presentation",
     "href":"https://youtu.be/LZ1WYXq14u0?t=2h52m40s"
-  }]
-},{
-  "thumb": "si-300.png",
-  "title": "savageinter.net",
-  "tags": ["v","w"],
-  "deliverable": "website",
-  "description": "Savage Internet is a games and education company I co-founded with my partner. I provided primary design for our website.",
-  "duration": "1 week",
-  "imagedir": "si",
-  "client":"Savage Internet",
-  "links":[{
-    "title":"website",
-    "href":"https://savageinter.net"
-  }]
+  },{
+    "title":"3D printable cookie cutters",
+    "href":"http://www.thingiverse.com/thing:1185477"
+  }
+  ]
 },{
   "thumb": "m4s-300.png",
   "title": "March for Science Toronto",
@@ -218,5 +209,24 @@
   "links":[{
     "title":"printable game board",
     "href":"https://drive.google.com/file/d/0BzrCBpMEE7AVTlpheFE2VDR0NWM/view?usp=sharing"
+  }]
+},{
+  "thumb": "hoedown-300.jpg",
+  "title": "Kinoma Create Hoedown!",
+  "tags": ["e","v","g"],
+  "deliverable": "electronic and web game experience",
+  "description": "Hoedown is an Austin-themed interactive character generation system that tests a person’s intelligence, constitution, and more, using a series of entertaining challenges; it was developed as a tech/experience demo for the Kinoma Create (an IOT prototyping platform). I was the sole visual and electronics designer, collaborated on game design, and helped showcase this game as a part of Kinoma's booth at South By Southwest 2014.",
+  "duration": "3 months",
+  "imagedir": "hoedown",
+  "client":"Marvell Kinoma",
+  "links":[{
+    "title":"blog post (archive)",
+    "href":"https://web.archive.org/web/20140909140318/http://blog.kinoma.com/2014/06/hoedown-with-the-savages-and-kinoma-create/"
+  },{
+    "title":"github repository",
+    "href":"https://github.com/savageinternet/hoedown"
+  },{
+    "title":"video",
+    "href":"https://www.youtube.com/watch?v=aSI7spOF79I"
   }]
 }]
