@@ -35,14 +35,18 @@
   "title": "Puzzling Madness of John A. Macdonald",
   "tags": ["p", "v", "e", "g"],
   "deliverable": "website and paper materials",
-  "description": "The Puzzling Madness of John A. Macdonald blends escape room game and historical tour. Players encounter a mysterious plot threatening Canada's Confederation, and physically travel to several locations in order to stop it. At each location, they meet a historical character and are given a puzzle document, which relies on the historical site's environment to solve.\nI am the sole visual designer and UX researcher for the website and puzzle documents, and I collaborate on game and puzzle design.",
+  "description": "The Puzzling Madness of John A. Macdonald is a puzzle/scavenger hunt across Downtown Toronto. Designed for the Canada 150 celebration, it features puzzles set in Toronto of 1867, using historical handbills, maps, and sites. I am the art director and designer for the project, photographing and creating ad campaigns, crafting print and physical props, costuming actors, co-supervising auditions and rehearsals, and running game experience tests.",
   "duration": "8 months (in progress)",
   "imagedir": "pm",
   "client":"Savage Internet",
   "links":[{
       "title":"website",
       "href":"https://puzzlingmadness.ca"
-    }]
+    },{
+      "title":"trailer video",
+      "href":"https://www.youtube.com/watch?v=973w2QTswQI"
+    },
+  ]
 },{
   "thumb": "heve-300.jpg",
   "title": "Hello, Velo!",
