@@ -1,20 +1,4 @@
 [{
-  "thumb": "locatrix-300.jpg",
-  "title": "Locatrix",
-  "tags": ["w", "m", "d", "v"],
-  "deliverable": "Android app and website",
-  "description": "Locatrix tracks a user's location and makes it easy to share, while preserving user privacy and safety by only sharing city-level location. Locatrix comes in two parts: an app which is downloaded to the user's phone and a website which leads the user through configuring their sharing tools.\nI was the sole UI/UX designer for the app and website, and contributed to coding.",
-  "duration": "6 months",
-  "imagedir": "locatrix",
-  "client":"Savage Internet",
-  "links":[{
-    "title":"web home",
-    "href":"https://locatrix.savageinter.net"
-    },{
-      "title":"on Google Play",
-      "href":"https://play.google.com/store/apps/details?id=net.savageinter.locatrix"
-    }]
-},{
   "thumb": "zombie-300.jpg",
   "title": "Zombie Rendezvous",
   "tags": ["p", "v", "g", "e"],
@@ -71,6 +55,22 @@
     },{
       "title":"tech video",
       "href":"https://www.youtube.com/watch?v=YQAL1LEk7Jk"
+    }]
+},{
+  "thumb": "locatrix-300.jpg",
+  "title": "Locatrix",
+  "tags": ["w", "m", "d", "v"],
+  "deliverable": "Android app and website",
+  "description": "Locatrix tracks a user's location and makes it easy to share, while preserving user privacy and safety by only sharing city-level location. Locatrix comes in two parts: an app which is downloaded to the user's phone and a website which leads the user through configuring their sharing tools.\nI was the sole UI/UX designer for the app and website, and contributed to coding.",
+  "duration": "6 months",
+  "imagedir": "locatrix",
+  "client":"Savage Internet",
+  "links":[{
+    "title":"web home",
+    "href":"https://locatrix.savageinter.net"
+    },{
+      "title":"on Google Play",
+      "href":"https://play.google.com/store/apps/details?id=net.savageinter.locatrix"
     }]
 },{
   "thumb": "joynews-300.png",
@@ -229,4 +229,18 @@
     "title":"video",
     "href":"https://www.youtube.com/watch?v=aSI7spOF79I"
   }]
+},{
+  "thumb": "dress-300.jpg",
+  "title": "Proximity Dress",
+  "tags": ["p"],
+  "deliverable": "sewn electronics",
+  "description": "For our wedding, my husband and I also crafted a pair of proximity-monitoring electronic devices. In his pocket was a transmitter, and my dress held a receiver. Based on distance between the radios, the dress would also light up more or less. This experience was a big hit for our guests.",
+  "duration": "1 week",
+  "imagedir": "dress",
+  "client":"",
+  "links":[{
+    "title":"github",
+    "href":"https://github.com/candu/proximity-dress"
+  }
+  ]
 }]
