@@ -116,13 +116,16 @@
   "title": "March for Science Toronto",
   "tags": ["v","w"],
   "deliverable": "website",
-  "description": "March for Science Toronto was a part of the global March for Science movement. I created the website design for the march, wrote blog posts, helped organize speakers, and performed other organizing duties.",
-  "duration": "6 months",
+  "description": "March for Science Toronto has been a part of the global March for Science movement since 2017. In 2017 and 2018, I created the website design for the march, wrote blog posts, helped organize speakers, and performed other organizing duties.",
+  "duration": "2 years",
   "imagedir": "m4s",
   "client":"",
   "links":[{
-    "title":"website",
+    "title":"website 2018",
     "href":"https://sciencemarchto.ca"
+  },{
+    "title":"website 2017",
+    "href":"https://sciencemarchto.ca/2017"
   },{
     "title":"sciencenode article",
     "href":"https://sciencenode.org/feature/toronto-joins-the-march-for-science.php"
