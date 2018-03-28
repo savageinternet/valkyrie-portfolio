@@ -74,8 +74,8 @@
           <div class="right">
             <a href="mailto:valkyrie@savageinter.net">valkyrie@savageinter.net</a><br/>
             <a href="https://facebook.com/valkyrie">facebook.com/valkyrie</a><br/>
-					  <a href="https://linedin.com/in/valkyrie">linkedin.com/in/valkyrie</a><br/>
-					  <a href="https://github.com/valkyriesavage">github.com/valkyriesavage</a><br/>
+	    <a href="https://linkedin.com/in/valkyrie">linkedin.com/in/valkyrie</a><br/>
+	    <a href="https://github.com/valkyriesavage">github.com/valkyriesavage</a><br/>
           </div>
           <div class="left">physical coordinates:</div>
           <div class="right">860 St. Clarens Ave.<br/>Toronto, ON M6H 3X6<br/>Canada</div>
