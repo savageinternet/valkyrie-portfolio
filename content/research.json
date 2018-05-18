@@ -70,7 +70,8 @@
   "links": [
     {"title": "On the Digital Library", "href": "http://dl.acm.org/citation.cfm?id=2647374"},
     {"title": "Download Paper", "href": "papers/sot.pdf"},
-    {"title": "Video", "href": "https://www.youtube.com/watch?v=PiFbjOkYC4M"}
+    {"title": "Video", "href": "https://www.youtube.com/watch?v=PiFbjOkYC4M"},
+    {"title": "Patent", "href": "https://patents.google.com/patent/US20150370926"}
   ],
   "video": "https://www.youtube.com/embed/PiFbjOkYC4M"
 },{
