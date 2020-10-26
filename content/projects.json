@@ -1,4 +1,23 @@
 [{
+  "thumb": "affectron-300.jpg",
+  "title": "Affectron 1.0",
+  "tags": ["p", "v", "g", "e", "d"],
+  "deliverable": "manual, code, lasercut body, and bespoke robotics kit",
+  "description": "The Affectron 1.0 Robotics kit was developed as a special birthday present: it includes a manual and box of parts and custom-fabricated components that lead the recipient through a variety of concepts in programming and robotics, culminating in a completed robot that gives hugs.\nI designed and fabricated the body template and box, assembled and tested the robotic components, and designed/layouted the instructions document. I also collaborated on content for the document and code testing for the repository.",
+  "duration":"3 months",
+  "imagedir":"affectron",
+  "client":"personal",
+  "links":[{
+      "title": "Description Video",
+      "href": "https://youtu.be/RRbFlNV5fzg"
+    },{
+      "title": "Github Repository",
+      "href": "https://github.com/savageinternet/affectron"
+    },{
+      "title": "Instructions Document",
+      "href": "https://docs.google.com/document/d/16no3-AdNrDLmhs3ypydQ-Ae4BYX3c2rBqOuVixVBRKU/edit"
+    }]
+},{
   "thumb": "zombie-300.jpg",
   "title": "Zombie Rendezvous",
   "tags": ["p", "v", "g", "e"],

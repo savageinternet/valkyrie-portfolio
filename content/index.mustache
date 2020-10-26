@@ -10,7 +10,8 @@
         <img src="img/header.jpg">
         <h1 id="name">Valkyrie A. Savage</h1>
       </div>
-      <section id="about" class="dark-bg">
+
+      <section id="about" class="light-bg">
         <h2>ABOUT</h2>
         <div class="bodytext">
           I invent, craft, and study delightful experiences.
@@ -25,10 +26,30 @@
           I am open to work in near-future technical research, education, games, digital design/fabrication, and UX.
         </div>
         <div class="lr">
-          <div class="right">Current Work: Research Scientist (HCI) at <a href="http://tactuallabs.com">Tactual Labs</a></div>
+          <div class="right">Current Work: Exploring at <a href="http://savageinter.net">Savage Internet</a></div>
           <div class="left">Education: PhD, Human Computer Interaction, UC Berkeley</div>
         </div>
       </section>
+
+      <section id="research" class="dark-bg">
+        <h2>RESEARCH</h2>
+
+        <div class="bodytext">
+          I study physical input devices as the ultimate bridge between humans and computers. My work pushes for a world where such devices, whether explicitly-designed or ad hoc, fit a specific user’s needs for a particular time, place, and task, culminating in deeply custom interfaces designed, fabricated, or simply picked up to solve a problem.
+
+          My thesis research, supervised by <a href="https://eecs.berkeley.edu/~bjoern">Björn Hartmann</a>, focused on digital fabrication and how we can leverage its potential to make prototyping input devices a faster and easier process: this culminated in my dissertation, entitled <a href="/papers/thesis.pdf">“Fabbed to Sense: Integrated Design of Geometry and Sensing for Interactive Objects.”</a> <a href="https://www.youtube.com/watch?v=SgZUxloEo4s">A video of my thesis presentation</a> is also available online.<br/><br/>
+
+          More recently, at <a href="https://tactuallabs.com">Tactual Labs</a> I measured human anatomy to richly sense user interactions with existing objects, removing the need for dedicated input devices (under submission). Next, I plan to merge these two approaches and examine how sensing the body and its dynamic capabilities can enhance design of input devices, as well as to expand into task-sensitive sensing—fitting devices to not only their user but their user’s task—and design support—enabling fluid collaboration around digital designs for interactive physical objects.<br/><br/>
+
+          In the course of doing my own research, I supervised research projects for interns, Masters students, and undergraduates. I also taught UC Berkeley’s <a href="https://cs160.valkyriesavage.com">Introduction to User Interface Design</a> course in Summer 2015 and redesigned the curriculum to incorporate a new technology, replace roughly half the lectures with a studio component, and fit with the summer session timeline.
+        </div>
+        <div id="research">
+          {{#research}}
+            {{> researchShort}}
+          {{/research}}
+        </div>
+      </section>
+
       <section id="portfolio" class="light-bg">
         <h2>PORTFOLIO</h2>
         <div id="tags">
@@ -52,19 +73,8 @@
           </div>
         </div>
       </section>
-      <section id="research" class="dark-bg">
-        <h2>RESEARCH</h2>
-        <div class="bodytext">My thesis research, supervised by <a href="https://eecs.berkeley.edu/~bjoern">Björn Hartmann</a>, focused on digital fabrication and how we can leverage its potential to make prototyping input devices a faster and easier process: this culminated in my dissertation, entitled <a href="/papers/thesis.pdf">“Fabbed to Sense: Integrated Design of Geometry and Sensing for Interactive Objects.”</a> <a href="https://www.youtube.com/watch?v=SgZUxloEo4s">A video of my thesis presentation</a> is also available online.<br/><br/>
 
-        In the course of doing my own research, I supervised research projects for Masters students and undergraduates. I also taught UC Berkeley’s <a href="https://cs160.valkyriesavage.com">Introduction to User Interface Design</a> course in Summer 2015 and redesigned the curriculum to incorporate a new technology, replace roughly half the lectures with a studio component, and fit with the summer session.
-        </div>
-        <div id="research">
-          {{#research}}
-            {{> researchShort}}
-          {{/research}}
-        </div>
-      </section>
-      <section id="contact" class="light-bg">
+      <section id="contact" class="dark-bg">
         <h2>CONTACT</h2>
         <div id="map-wrapper">
           <div id="card">
