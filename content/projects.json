@@ -1,4 +1,17 @@
 [{
+  "thumb": "nanowrimo-300.png",
+  "title": "ResearchWriMo",
+  "tags": ["v","e"],
+  "deliverable": "50k word novel draft",
+  "description": "National Novel Writing Month (NaNoWriMo) is celebrated internationally every November. In 2020 I joined the fray and challenged myself to write a 50k word novel featuring a possible future of my own research. <i>In a world where genetic standardization defines everything about workers’ lives, an elderly and brash bicycle messenger finds out that her granddaughter’s genome is subpar; she must learn a few new tricks herself to help the girl towards a new career before they are both removed from the gene pool.</i>",
+  "duration":"1 month",
+  "imagedir":"none",
+  "client":"personal",
+  "links":[{
+      "title": "Draft",
+      "href": "https://docs.google.com/document/d/144O3E_k780p2J9JQTAT9w_O0Y1CWvTSvcspOjmFf-Ik/edit#"
+    }]
+},{
   "thumb": "affectron-300.jpg",
   "title": "Affectron 1.0",
   "tags": ["p", "v", "g", "e", "d"],
@@ -92,6 +105,19 @@
       "href":"https://play.google.com/store/apps/details?id=net.savageinter.locatrix"
     }]
 },{
+  "thumb": "cycleto-300.png",
+  "title": "Cycle Toronto",
+  "tags": ["d","p","e","w"],
+  "deliverable": "board position, make-a-thon",
+  "description": "Cycle Toronto is a cycling advocacy organization based in, you guessed it, Toronto. I serve on the board, helping with the IT and advocacy committees. I also organized (and did design/production for) CycleTO's inaugural Make-a-Thon.",
+  "duration": "3 years",
+  "imagedir": "cycleto",
+  "client":"",
+  "links":[{
+    "title":"make-a-thon",
+    "href":"https://www.cycleto.ca/torontoheartsbikes-makeathon"
+  }]
+},{
   "thumb": "joynews-300.png",
   "title": "JoyNews",
   "tags": ["p","m"],
@@ -115,7 +141,7 @@
   "title": "Jugger",
   "tags": ["v","p","g"],
   "deliverable": "logos, uniforms, physical objects, Instructable",
-  "description": "Jugger—a blend of capture the flag, fencing, and rugby—enjoys relative popularity in Germany, but my partner and I introduced the game to the Bay Area and Toronto. I designed our logos and uniforms, along with several giveaways for players and other teams we met at tournaments. I created an Instructable, later featured, to document our building process. My partner and I gave a presentation at Nerd Nite East Bay on the history of the sport, for which I crafted the slides.",
+  "description": "Jugger—a blend of capture the flag, fencing, and rugby—enjoys relative popularity in Germany, but my partner and I introduced the game to the Bay Area and Toronto. I designed our logos and uniforms, along with several giveaways for players and other teams we met at tournaments. I created an Instructable, later featured, to document our building process. My partner and I gave a presentation at Nerd Nite East Bay on the history of the sport, for which I crafted the slides. I am also on the board of the International Jugger Council and designed their website.",
   "duration": "3 years",
   "imagedir": "jugger",
   "client":"",
@@ -127,7 +153,10 @@
     "href":"https://youtu.be/LZ1WYXq14u0?t=2h52m40s"
   },{
     "title":"3D printable cookie cutters",
-    "href":"http://www.thingiverse.com/thing:1185477"
+    "href":"https://www.thingiverse.com/thing:1185477"
+  },{
+    "title":"International Jugger Council",
+    "href":"https://juggercouncil.org/"
   }
   ]
 },{

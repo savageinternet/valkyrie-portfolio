@@ -167,7 +167,7 @@ section {
   cursor: pointer;
   display: inline-block;
   text-decoration: underline;
-  margin: 0 12px;
+  margin: 0 4px;
   padding: 8px;
 }
 
@@ -200,9 +200,12 @@ section {
 #hero {
   position: relative;
   max-width: 100%;
-  max-height: 100%;
+  max-height: 750px;
+  min-height: 350px;
   & > img {
     width: 100%;
+    max-height:750px;
+    min-height: 350px;
   }
   & > #name {
     position: absolute;
@@ -213,6 +216,16 @@ section {
     margin: 0;
     display:none;
   }
+}
+
+#profile-img {
+  position:absolute;
+  left:24px;
+  bottom:24px;
+  width:300px;
+  height:300px;
+  border-radius:150px;
+  background-image: url("/img/profile_smol.jpeg");
 }
 
 #tags > .tag {
@@ -247,6 +260,23 @@ section {
   &.active::after {
     background-color: @color-dark-orange;
   }
+}
+
+.news {
+  text-align: left;
+}
+
+.news-wrapper {
+
+}
+
+.news-date {
+  color: @color-sun;
+  display: inline-block;
+}
+
+.news-headline {
+  display:inline-block;
 }
 
 .project {
@@ -333,7 +363,7 @@ section {
   }
 }
 
-@media only screen and (min-width: 570px) {
+@media only screen and (min-width: 580px) {
   #topbar-text > a {
     display: inline-block;
   }
@@ -418,6 +448,9 @@ section {
 @media only screen and (min-width: 1280px) {
   #hero > #name {
     display: block;
+  }
+  #profile-img {
+    bottom:110px;
   }
 
   .pop {

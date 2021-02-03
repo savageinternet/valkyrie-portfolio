@@ -9,6 +9,7 @@ ROOT = os.path.dirname(os.path.realpath(__file__))
 IN_DIR = os.path.join(ROOT, 'content')
 PROJECTS_FILENAME = os.path.join(IN_DIR, 'projects.json')
 RESEARCH_FILENAME = os.path.join(IN_DIR, 'research.json')
+NEWS_FILENAME = os.path.join(IN_DIR, 'news.json')
 OUT_DIR = os.path.join(ROOT, 'build')
 
 RENDERER = pystache.Renderer(search_dirs=[IN_DIR])
@@ -31,11 +32,12 @@ def make_page(filename, html):
         f.write(html)
 
 
-def make_index_page(projects, research):
+def make_index_page(projects, research, news):
     html = render('index', {
-      'pageTitle': 'Valkyrie Savage - Designer',
+      'pageTitle': 'Valkyrie Savage - HCI Researcher',
       'projects': projects,
-      'research': research
+      'research': research,
+      'news': news
     })
     make_page('index.html', html)
 
@@ -105,7 +107,8 @@ def main():
     research = load_json(RESEARCH_FILENAME)
     for project in research:
         project['filename'] = get_project_filename(project)
-    make_index_page(projects, research)
+    news = load_json(NEWS_FILENAME)
+    make_index_page(projects, research, news)
     make_project_pages(projects)
     make_research_pages(research)
 
