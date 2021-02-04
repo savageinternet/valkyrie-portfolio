@@ -218,14 +218,24 @@ section {
   }
 }
 
-#profile-img {
+#profile-img-wrapper {
   position:absolute;
   left:24px;
   bottom:24px;
+  width:320px;
+  height:320px;
+  border-radius:160px 160px 160px 40px;
+  background-color: @color-dark-bg;
+}
+
+#profile-img {
+  position:relative;
+  left:10px;
+  top:10px;
   width:300px;
   height:300px;
   border-radius:150px;
-  background-image: url("/img/profile_smol.jpeg");
+  background-image: url("/img/profile_smol.jpg");
 }
 
 #tags > .tag {
@@ -449,7 +459,7 @@ section {
   #hero > #name {
     display: block;
   }
-  #profile-img {
+  #profile-img-wrapper {
     bottom:110px;
   }
 
