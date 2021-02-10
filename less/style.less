@@ -200,42 +200,31 @@ section {
 #hero {
   position: relative;
   max-width: 100%;
-  max-height: 750px;
+  max-height: 531px;
   min-height: 350px;
-  & > img {
-    width: 100%;
-    max-height:750px;
-    min-height: 350px;
-  }
-  & > #name {
-    position: absolute;
-    left: 24px;
-    bottom: 8px;
-    color: @color-white;
-    font-size: 4rem;
-    margin: 0;
-    display:none;
-  }
+  background-size: cover;
+  background-image:  url("/img/header.jpg");
 }
 
 #profile-img-wrapper {
   position:absolute;
   left:24px;
-  bottom:24px;
-  width:320px;
-  height:320px;
+  bottom:15px;
+  width:250px;
+  height:250px;
   border-radius:160px 160px 160px 40px;
-  background-color: @color-dark-bg;
+  background-color: @color-light-bg;
 }
 
 #profile-img {
   position:relative;
   left:10px;
   top:10px;
-  width:300px;
-  height:300px;
-  border-radius:150px;
+  width:230px;
+  height:230px;
+  border-radius:115px;
   background-image: url("/img/profile_smol.jpg");
+  background-size: 100% 100%;
 }
 
 #tags > .tag {
@@ -456,13 +445,6 @@ section {
 }
 
 @media only screen and (min-width: 1280px) {
-  #hero > #name {
-    display: block;
-  }
-  #profile-img-wrapper {
-    bottom:110px;
-  }
-
   .pop {
     display: inline-block;
   }
