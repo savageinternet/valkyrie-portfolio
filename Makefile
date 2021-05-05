@@ -10,8 +10,8 @@ less: npm
 	./node_modules/less/bin/lessc less/researchPage.less build/css/researchPage.css
 
 pyth: requirements.txt htmlize.py
-	pip install -r requirements.txt
-	python htmlize.py
+	pip3 install -r requirements.txt
+	python3 htmlize.py
 
 copy: pyth less
 	cp -r google2ef4f2b4bcd33bf5.html favicon.ico fonts img js papers robots.txt build

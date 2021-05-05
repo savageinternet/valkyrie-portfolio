@@ -1,4 +1,23 @@
 [{
+  "thumb": "juggor-300.png",
+  "title": "Juggor Tournimnent",
+  "tags": ["d","g","v","w"],
+  "deliverable": "game rules and map",
+  "description": "During the COVID lockdowns of 2020-2021, I was inspired to bring together the community for my sport using video conferencing. I developed a modified ruleset for our sport which is playable over the spatial video-conferencing platform gather. The ruleset was officially debuted on May 1 to a crowd of juggers, and the server time was paid for via a small kickstarter.",
+  "duration":"1 month",
+  "imagedir":"none",
+  "client":"personal",
+  "links":[{
+      "title": "Rules",
+      "href": "https://docs.google.com/document/d/1hOs3Dr1VY57MSq0_IQTV7QuYa8hHTyu-9NdxdU8DEKQ/edit#"
+    },{
+      "title": "Kickstarter",
+      "href": "https://www.kickstarter.com/projects/valkyriesavage/jugger-tournminent-an-online-jugger-par-tay"
+    },{
+      "title": "Gather room",
+      "href": "https://gather.town/app/cEM0jqVj15xZQDgq/Jugger%20Party"
+    }]
+},{
   "thumb": "nanowrimo-300.png",
   "title": "ResearchWriMo",
   "tags": ["v","e"],
