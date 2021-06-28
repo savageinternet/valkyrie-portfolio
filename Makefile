@@ -11,6 +11,7 @@ less: npm
 
 pyth: requirements.txt htmlize.py
 	pip3 install -r requirements.txt
+	mkdir -p img/none/
 	python3 htmlize.py
 
 copy: pyth less
