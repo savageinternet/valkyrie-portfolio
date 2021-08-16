@@ -1,4 +1,20 @@
 [{
+  "thumb": "bardy-300.png",
+  "title": "Bardy McBardface",
+  "tags": ["d","g"],
+  "deliverable": "playable game prototype",
+  "description": "Intrigued by modern machine language generation, I prototyped a game with poetry as a part of its core game loop. In Bardy McBardface, you play a bard who tries not to die while simultaneously being close enough to a fight between your hero and their enemy to collect (generated) scraps of verse which you later assemble into a ballad.",
+  "duration":"3 months",
+  "imagedir":"bardy",
+  "client":"personal",
+  "links":[{
+      "title": "design sketch (w/ Evan)",
+      "href": "https://docs.google.com/document/d/1r1h7mOtKvubgX-WtLSFZWutVgqO7syENo7WEk1bf_Ds/edit#heading=h.zf624j4fchiu"
+    },{
+      "title": "github repository",
+      "href": "https://github.com/valkyriesavage/bardymcbardface"
+    }]
+},{
   "thumb": "juggor-300.png",
   "title": "Juggor Tournimnent",
   "tags": ["d","g","v","w"],
@@ -8,7 +24,7 @@
   "imagedir":"none",
   "client":"personal",
   "links":[{
-      "title": "Rules",
+      "title": "rules",
       "href": "https://docs.google.com/document/d/1hOs3Dr1VY57MSq0_IQTV7QuYa8hHTyu-9NdxdU8DEKQ/edit#"
     },{
       "title": "Kickstarter",
@@ -27,7 +43,7 @@
   "imagedir":"none",
   "client":"personal",
   "links":[{
-      "title": "Draft",
+      "title": "draft",
       "href": "https://docs.google.com/document/d/144O3E_k780p2J9JQTAT9w_O0Y1CWvTSvcspOjmFf-Ik/edit#"
     }]
 },{
@@ -40,13 +56,13 @@
   "imagedir":"affectron",
   "client":"personal",
   "links":[{
-      "title": "Description Video",
+      "title": "description video",
       "href": "https://youtu.be/RRbFlNV5fzg"
     },{
-      "title": "Github Repository",
+      "title": "github repository",
       "href": "https://github.com/savageinternet/affectron"
     },{
-      "title": "Instructions Document",
+      "title": "instructions document",
       "href": "https://docs.google.com/document/d/16no3-AdNrDLmhs3ypydQ-Ae4BYX3c2rBqOuVixVBRKU/edit"
     }]
 },{
@@ -152,7 +168,7 @@
     "title":"presentation slides",
     "href":"https://docs.google.com/presentation/d/1y_IePtHtJ1Z5-Ot3eRjXPJPIXKiYQvByj0ELNXUeFl0/edit?usp=sharing"
   },{
-    "title":"code on github",
+    "title":"github repository",
     "href":"https://github.com/joynews/joynews"
   }]
 },{
@@ -165,7 +181,7 @@
   "imagedir": "jugger",
   "client":"",
   "links":[{
-    "title":"weapons Instructable",
+    "title":"equipment Instructable",
     "href":"http://instructables.com/id/Jugger-Weapons"
   },{
     "title":"East Bay Nerd Nite presentation",
@@ -312,7 +328,7 @@
   "imagedir": "dress",
   "client":"",
   "links":[{
-    "title":"github",
+    "title":"github repository",
     "href":"https://github.com/candu/proximity-dress"
   }
   ]
