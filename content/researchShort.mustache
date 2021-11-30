@@ -1,7 +1,13 @@
 <a href="/{{filename}}">
 <div class="project">
-  <div class="project-wrapper" style="background-image:url(/img/research/{{thumb}});">
-    <div class="project-title">{{titleShort}}</div>
+  <div class="project-wrapper" style="background-image:url(/img/research/{{thumb}});"></div>
+  <div class="project-text">
+    <div class="project-title"><i>{{title}}</i><br/>{{authors}}<br/><b>{{venue}}</b></div>
+    <div class="project-links">
+      {{#links}}
+        [<a href="{{href}}">{{title}}</a>]
+      {{/links}}
+    </div>
   </div>
 </div>
 </a>

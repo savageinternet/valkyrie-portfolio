@@ -266,16 +266,17 @@ section {
 }
 
 .news-wrapper {
-
+  display: flex;
+  align-items: center;
 }
 
 .news-date {
   color: @color-sun;
-  display: inline-block;
+  padding: 4px;
 }
 
 .news-headline {
-  display:inline-block;
+  padding: 4px;
 }
 
 .project {
@@ -325,17 +326,48 @@ section {
   background-color: fade(@color-dark-orange, 80%);
 }
 
-#research .project {
+#research-projects {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#research-projects .project {
+  width: 45%;
   border-color: @color-sun;
+  background-color: white;
+  display: flex;
+  a {
+    text-decoration: none;
+  }
+  .project-wrapper {
+    width: 150px;
+    height: 150px;
+    text-decoration: none;
+  }
+  .project-text {
+    display: flex;
+    flex-direction: column;
+  }
   .project-title {
-    background-color: fade(@color-white, 80%);
-    height: 50px;
+    position: unset;
+    width: 100%;
+    text-align: start;
+    background-color: transparent;
+    font-size: 1rem;
+  }
+  .project-links {
+    font-size: small;
+    text-align: start;
+    padding: 8px;
+    a:hover {
+      text-decoration: underline;
+    }
   }
 }
 
 #map-wrapper {
   position: relative;
-  background-image: url(/img/map.jpg);
+  background-image: url(/img/map.png);
   background-size: cover;
   background-position: 50% 50%;
   height: 700px;
@@ -359,6 +391,12 @@ section {
 @media only screen and (min-width: 480px) {
   .project-title {
     height: 50px;
+  }
+  #research .project-title {
+    height: auto;
+  }
+  #research .project {
+    width: 100%;
   }
 }
 
@@ -399,6 +437,10 @@ section {
 
   .project-title {
     height: 75px;
+  }
+
+  #research .project-title {
+    height: auto;
   }
 }
 
@@ -441,6 +483,10 @@ section {
   #nav > a,
   #nav > span {
     margin-right: 24px;
+  }
+
+  #research-projects .project {
+    width: 49%;
   }
 }
 
