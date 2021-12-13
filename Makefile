@@ -18,7 +18,7 @@ copy: pyth less
 	cp -r google2ef4f2b4bcd33bf5.html favicon.ico fonts img js papers robots.txt build
 
 run:
-	cd build && python -m http.server
+	cd build && python3 -m http.server
 
 clean:
 	rm -r build
