@@ -8,7 +8,8 @@
   "links": [
     {"title": "Workshop Paper", "href": "http://epo4vr.dfki.de/assets/papers/rudolph2021handasasensor.pdf"},
     {"title": "Video", "href": "https://vimeo.com/653855552"}
-  ]
+  ],
+  "video": "https://player.vimeo.com/video/653855552?h=8c9c1beb2f"
 },{
   "thumb": "fabbed-300.jpg",
   "title": "Fabbed to Sense: Integrated Design of Geometry and Sensing Algorithms for Interactive Objects",
@@ -17,7 +18,7 @@
   "venue": "Dissertation",
   "abstract": "Task-specific tangible input devices, like video game controllers, improve user speed and accuracy in input tasks compared to the more general-purpose touchscreen or mouse and keyboard. However, while modifying a graphical user interface (GUI) to accept mouse and keyboard inputs for new and specific tasks is relatively easy and requires only software knowledge, tangible input devices are challenging to prototype and build.\n\nRapid prototyping digital fabrication machines, such as vinyl cutters, laser cutters, and 3D printers, now permeate the design process for such devices. Using these tools, designers can realize a new tangible design faster than ever. In a typical design process, these machines are not used to create the interaction in these interactive product prototypes: they merely create the shell, case, or body, leaving the designer to, in an entirely separate process, assemble and program electronics for sensing a user's input. What are the most cost-effective, fast, and flexible ways of sensing rapid-prototyped input devices? In this dissertation, we investigate how 2D and 3D models for input devices can be automatically generated or modified in order to employ standard, off-the-shelf sensing techniques for adding interactivity to those objects: we call this \"fabbing to sense.\"\n\nWe describe the capabilities of modern rapid prototyping machines, linking these abilities to potential sensing mechanisms when possible. We plunge more deeply into three examples of sensing/fabrication links: we build analysis and design tools that help users design, fabricate, assemble, and <i>use</i> input devices sensed through these links. First, we discuss Midas, a tool for building capacitive sensing interfaces on non-screen surfaces, like the back of a phone. Second, we describe Lamello, a technique that generates lasercut and 3D printed tine structures and simulates their vibrational frequencies for training-free audio sensing. Finally, we present Sauron, a tool that automatically modifies the interior of 3D input models to allow sensing via a single embedded camera. We demonstrate each technique's flexibility to be used for many types of input devices through a series of example objects.",
   "links": [
-    {"title": "Download", "href": "papers/thesis.pdf"},
+    {"title": "Paper", "href": "papers/thesis.pdf"},
     {"title": "Presentation Video", "href": "https://www.youtube.com/watch?v=SgZUxloEo4s"}
   ],
   "video": "https://www.youtube.com/embed/SgZUxloEo4s"
@@ -29,8 +30,8 @@
   "venue": "CHI 2016 EA",
   "abstract": "Mapping techniques from software tutorials onto physical craft processes can assist novices in building multi-material assemblies. By providing in-situ step instructions and progress tracking, generating dynamic feedback on technique, and adapting tutorial content to a user's specific context and preferences, an ecosystem of smart tools can guide users through complete project tutorials. We demonstrate how such techniques can be enabled by augmenting common workshop tools (drill/driver, saw, router) with measurement, state sensing and interactive feedback; and by sequencing instructions across multiple tools. We validate the benefits of a smart tool ecosystem through reflections on a series of author-created design examples and informal feedback from four fab lab users.",
   "links": [
-    {"title": "On the DL", "href": "http://dl.acm.org/citation.cfm?id=2892429"},
-    {"title": "Download", "href": "papers/drillsergeant.pdf"},
+    {"title": "ACM Digital Library", "href": "http://dl.acm.org/citation.cfm?id=2892429"},
+    {"title": "Paper", "href": "papers/drillsergeant.pdf"},
     {"title": "Video", "href": "https://www.youtube.com/watch?v=y8Qvgf1dBqA"}
   ],
   "video": "https://www.youtube.com/embed/y8Qvgf1dBqA"
@@ -42,7 +43,7 @@
   "venue": "XRDS Spring 2016",
   "abstract": "Today's 3-D printing hobbyists churn out kilos of static trinkets. These existing machines can further help them create functional objects, if new perspectives and designs are employed.",
   "links": [
-    {"title": "On the DL", "href": "http://dl.acm.org/citation.cfm?id=2893495"}
+    {"title": "ACM Digital Library", "href": "http://dl.acm.org/citation.cfm?id=2893495"}
   ],
   "video": ""
 },{
@@ -53,7 +54,7 @@
   "venue": "UIST 2015",
   "abstract": "To fabricate functional objects, designers create assemblies combining existing parts (e.g., mechanical hinges, electronic components) with custom-designed geometry (e.g., enclosures). Modeling complex assemblies is outside the reach of the growing number of novice \"makers\" with access to digital fabrication tools. We aim to allow makers to design and 3D print functional mechanical and electronic assemblies. Based on a formative exploration, we created Makers' Marks, a system based on physically authoring assemblies with sculpting materials and annotation stickers. Makers physically sculpt the shape of an object and attach stickers to place existing parts or high-level features (such as parting lines). Our tool extracts the 3D pose of these annotations from a scan of the design, then synthesizes the geometry needed to support integrating desired parts using a library of clearance and mounting constraints. The resulting designs can then be easily 3D printed and assembled. Our approach enables easy creation of complex objects such as TUIs, and leverages physical materials for tangible manipulation and understanding scale. We validate our tool through several design examples: a custom game controller, an animated toy figure, a friendly baby monitor, and a hinged box with integrated alarm.",
   "links": [
-    {"title": "On the DL", "href": "http://dl.acm.org/citation.cfm?id=2807508"},
+    {"title": "ACM Digital Library", "href": "http://dl.acm.org/citation.cfm?id=2807508"},
     {"title": "Paper", "href": "papers/makers-marks.pdf"},
     {"title": "Video", "href": "https://www.youtube.com/watch?v=xzKKK6yF5Dw"}
   ],
@@ -66,8 +67,8 @@
   "venue": "CHI 2015",
   "abstract": "We describe Lamello, an approach for creating tangible input components that recognize user interaction via passive acoustic sensing. Lamello employs comb-like structures with varying-length tines at interaction points (e.g., along slider paths). Moving a component generates tine strikes; a real-time audio processing pipeline analyzes the resultant sounds and emits high-level interaction events. Our main contributions are in the co-design of the tine structures, information encoding schemes, and audio analysis. We demonstrate 3D printed Lamello-powered buttons, sliders, and dials.",
   "links": [
-    {"title": "On the DL", "href": "http://dl.acm.org/citation.cfm?id=2702207"},
-    {"title": "Download", "href": "papers/lamello.pdf"},
+    {"title": "ACM Digital Library", "href": "http://dl.acm.org/citation.cfm?id=2702207"},
+    {"title": "Paper", "href": "papers/lamello.pdf"},
     {"title": "Video", "href": "https://www.youtube.com/watch?v=695ke7P6HM4"}
   ],
   "video": "https://www.youtube.com/embed/695ke7P6HM4"
@@ -79,8 +80,8 @@
   "venue": "UIST 2014",
   "abstract": "3D printers offer extraordinary flexibility for prototyping the shape and mechanical function of objects. We investigate how 3D models can be modified to facilitate the creation of interactive objects that offer dynamic input and output. We introduce a general technique for supporting the rapid prototyping of interactivity by removing interior material from 3D models to form internal pipes. We describe this new design space of pipes for interaction design, where variables include openings, path constraints, topologies, and inserted media. We then present PipeDream, a tool for routing such pipes through the interior of 3D models, integrated within a 3D modeling program. We use two distinct routing algorithms. The first has users define pipes' terminals, and uses path routing and physics-based simulation to minimize pipe bending energy, allowing easy insertion of media post-print. The second allows users to supply a desired internal shape to which we fit a pipe route: for this we describe a graph-routing algorithm. We present several prototypes created using our tool to show its flexibility and potential.",
   "links": [
-    {"title": "On the DL", "href": "http://dl.acm.org/citation.cfm?id=2647374"},
-    {"title": "Download", "href": "papers/series-of-tubes.pdf"},
+    {"title": "ACM Digital Library", "href": "http://dl.acm.org/citation.cfm?id=2647374"},
+    {"title": "Paper", "href": "papers/series-of-tubes.pdf"},
     {"title": "Video", "href": "https://www.youtube.com/watch?v=PiFbjOkYC4M"},
     {"title": "Patent", "href": "https://patents.google.com/patent/US20150370926"}
   ],
@@ -93,8 +94,8 @@
   "venue": "UIST 2013",
   "abstract": "3D printers enable designers and makers to rapidly produce physical models of future products. Today these physical prototypes are mostly passive. Our research goal is to enable users to turn models produced on commodity 3D printers into interactive objects with a minimum of required assembly or instrumentation. We present Sauron, an embedded machine vision-based system for sensing human input on physical controls like buttons, sliders, and joysticks. With Sauron, designers attach a single camera with integrated ring light to a printed prototype. This camera observes the interior portions of input components to determine their state. In many prototypes, input components may be occluded or outside the viewing frustum of a single camera. We introduce algorithms that generate internal geometry and calculate mirror placements to redirect input motion into the visible camera area. To investigate the space of designs that can be built with Sauron along with its limitations, we built prototype devices, evaluated the suitability of existing models for vision sensing, and performed an informal study with three CAD users. While our approach imposes some constraints on device design, results suggest that it is expressive and accessible enough to enable constructing a useful variety of devices.",
   "links": [
-    {"title": "On the DL", "href": "http://dl.acm.org/citation.cfm?id=2501992"},
-    {"title": "Download", "href": "papers/sauron.pdf"},
+    {"title": "ACM Digital Library", "href": "http://dl.acm.org/citation.cfm?id=2501992"},
+    {"title": "Paper", "href": "papers/sauron.pdf"},
     {"title": "Video", "href": "https://www.youtube.com/watch?v=GNdCnmm-cw8"}
   ],
   "video": "https://www.youtube.com/embed/GNdCnmm-cw8"
@@ -106,8 +107,8 @@
   "venue": "UIST 2012",
   "abstract": "An increasing number of consumer products include user interfaces that rely on touch input. While digital fabrication techniques such as 3D printing make it easier to prototype the shape of custom devices, adding interactivity to such prototypes remains a challenge for many designers. We introduce Midas, a software and hardware toolkit to support the design, fabrication, and programming of flexible capacitive touch sensors for interactive objects. With Midas, designers first define the desired shape, layout, and type of touch sensitive areas, as well as routing obstacles, in a sensor editor. From this high-level specification, Midas automatically generates layout files with appropriate sensor pads and routed connections. These files are then used to fabricate sensors using digital fabrication processes, e.g., vinyl cutters and conductive ink printers. Using step-by-step assembly instructions generated by Midas, designers connect these sensors to the Midas microcontroller, which detects touch events. Once the prototype is assembled, designers can define interactivity for their sensors: Midas supports both record-and-replay actions for controlling existing local applications and WebSocket-based event output for controlling novel or remote applications. In a first-use study with three participants, users successfully prototyped media players. We also demonstrate how Midas can be used to create a number of touch-sensitive interfaces.",
   "links": [
-    {"title": "On the DL", "href": "http://dl.acm.org/citation.cfm?id=2380189"},
-    {"title": "Download", "href": "papers/midas.pdf"},
+    {"title": "ACM Digital Library", "href": "http://dl.acm.org/citation.cfm?id=2380189"},
+    {"title": "Paper", "href": "papers/midas.pdf"},
     {"title": "Video", "href": "https://www.youtube.com/watch?v=lS60AH2_Pbs"}
   ],
   "video": "https://www.youtube.com/embed/lS60AH2_Pbs"
