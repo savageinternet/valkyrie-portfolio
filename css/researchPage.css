@@ -1,0 +1,40 @@
+#main {
+  padding-top: 64px;
+}
+#project-thumbnail > img {
+  border-radius: 12px;
+}
+#project-text {
+  padding: 6px 16px;
+  line-height: 1.25;
+  text-align: left;
+}
+#project-text > #title {
+  font-size: 2rem;
+  padding-bottom: 40px;
+}
+#project-video {
+  text-align: center;
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+}
+#project-video > iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+@media only screen and (min-width: 880px) {
+  #project-info {
+    align-items: flex-end;
+    display: flex;
+    flex-direction: row;
+  }
+  #project-thumbnail {
+    display: inline-block;
+  }
+}
