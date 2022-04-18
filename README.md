@@ -1,4 +1,4 @@
-## Build
+## Build in development
 
 ```bash
 make
@@ -13,8 +13,7 @@ make run
 ## Deploy
 
 ```bash
-ssh savage@oracle.savageinter.net
-cd /var/www/html/valkyriesavage.com
-git pull
-make
+git push
 ```
+
+The rest is handled automatically by Github Actions.
