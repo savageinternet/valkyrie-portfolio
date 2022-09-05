@@ -1,4 +1,17 @@
 [{
+  "thumb": "airlogic-300.png",
+  "title": "AirLogic: Embedding Pneumatic Computation and I/O in 3D Models to Fabricate Electronics-Free Interactive Objects",
+  "titleShort": "AirLogic",
+  "authors": "Valkyrie Savage, Carlos E. Tejada, Mengyu Zhong, Raf Ramakers, Daniel Ashbrook, Hyunyoung Kim",
+  "venue": "UIST 2022",
+  "abstract": "Researchers have developed various tools and techniques towards the vision of on-demand fabrication of custom, interactive devices. Recent work has 3D-printed artefacts like speakers, electromagnetic actuators, and hydraulic robots. However, these are non-trivial to instantiate as they require post-fabrication mechanical-- or electronic assembly. We introduce AirLogic: a technique to create electronics-free, interactive objects by embedding pneumatic input, logic processing, and output widgets in 3D-printable models. AirLogic devices can perform basic computation on user inputs and create visible, audible, or haptic feedback; yet they do not require elec- tronic circuits, physical assembly, or resetting between uses. Our library of 13 exemplar widgets can embed AirLogic-style computational capabilities in existing 3D models. We evaluate our widgets' performance—quantifying the loss of airflow (1) in each widget type, (2) based on printing orientation, and (3) from internal object geometry. Finally, we present five applications that illustrate AirLogic's potential.",
+  "links": [
+    {"title": "Paper", "href": "papers/airlogic.pdf"},
+    {"title": "ACM Digital Library (coming soon)", "href": "about:blank"},
+    {"title": "Video", "href": "https://youtu.be/jFL-_G9vmeU"}
+  ],
+  "video": "https://www.youtube.com/embed/jFL-_G9vmeU"
+},{
   "thumb": "wrist-300.png",
   "title": "Sensing Hand Interactions with Everyday Objects by Profiling Wrist Topography",
   "titleShort": "Wrist Profiling",
@@ -6,8 +19,9 @@
   "venue": "TEI 2022",
   "abstract": "We demonstrate rich inferences about unaugmented everyday objects and hand object interactions by measuring minute skin surface deformations at the wrist using a sensing technique based on capacitance. The wristband prototype infers muscle and tendon tension, pose, and motion, which we then map to force (9 users, 13.66 +/- 9.84 N regression error on classes 0--49.1 N), grasp (9 users, 81 +/- 7 % classification accuracy on 6 grasps), and continuous interaction (10 users, 99 +/- 1 % discrimination accuracy between 6 interactions, 89--97 % accuracy on 3 states within each interaction) using basic machine learning models.\n\nWe wrapped these sensing capabilities into a proof-of-concept end-to-end system, Ubiquitous Controls, that enables virtual range inputs by sensing continuous interactions with unaugmented objects. Eight users leveraged our system to control UI widgets (like sliders and dials) with object interactions (like \"cutting with scissors\" and \"squeezing a ball\"). Finally, we discuss the implications and opportunities of using hands as a ubiquitous sensor of our surroundings.",
   "links": [
-    {"title": "ACM Digital Library", "href": "https://dl.acm.org/doi/10.1145/3490149.3501320"},
+    {"title": "Paper", "href": "papers/wristprofiling.pdf"},
     {"title": "Workshop Paper", "href": "http://epo4vr.dfki.de/assets/papers/rudolph2021handasasensor.pdf"},
+    {"title": "ACM Digital Library", "href": "https://dl.acm.org/doi/10.1145/3490149.3501320"},
     {"title": "Video", "href": "https://vimeo.com/653855552"}
   ],
   "video": "https://player.vimeo.com/video/653855552?h=8c9c1beb2f"
