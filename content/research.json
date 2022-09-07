@@ -8,6 +8,7 @@
   "links": [
     {"title": "Paper", "href": "papers/airlogic.pdf"},
     {"title": "ACM Digital Library (coming soon)", "href": "about:blank"},
+    {"title": "Github repo", "href": "https://github.com/shape-changing-interfaces/AirLogic"},
     {"title": "Video", "href": "https://youtu.be/jFL-_G9vmeU"}
   ],
   "video": "https://www.youtube.com/embed/jFL-_G9vmeU"
