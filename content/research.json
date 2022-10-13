@@ -13,6 +13,18 @@
   ],
   "video": "https://www.youtube.com/embed/jFL-_G9vmeU"
 },{
+  "thumb": "renderpanel-300.png",
+  "title": "Fabricate it or Render it?",
+  "titleShort": "Render Panel",
+  "authors": "Mustafa Doga Dogan, Patrick Baudisch, Hrvoje Benko, Michael Nebeling, Huaishu Peng, Valkyrie Savage, Stefanie Mueller",
+  "venue": "CHI 2022",
+  "abstract": "In the technical human-computer interaction (HCI) community, two research fields that gained significant popularity in the last decade are digital fabrication and augmented/virtual reality (AR/VR). Although the two fields deal with different technical challenges, both aim for a single end goal: creating ”objects” instantly – either by fabricating them physically or rendering them virtually. In this panel, we will discuss the pros and cons of both approaches, discuss which one may prevail in the future, and what opportunities exist for closer collaboration between researchers from the two research fields.",
+  "links": [
+    {"title": "ACM Digital Library", "href": "https://dl.acm.org/doi/abs/10.1145/3491101.3516510"},
+    {"title": "Video", "href": "https://youtu.be/e3gfy11d76s?t=24112"}
+  ],
+  "video": "https://www.youtube.com/embed/jFL-_G9vmeU"
+},{
   "thumb": "wrist-300.png",
   "title": "Sensing Hand Interactions with Everyday Objects by Profiling Wrist Topography",
   "titleShort": "Wrist Profiling",
