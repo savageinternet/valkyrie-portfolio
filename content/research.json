@@ -7,11 +7,24 @@
   "abstract": "Researchers have developed various tools and techniques towards the vision of on-demand fabrication of custom, interactive devices. Recent work has 3D-printed artefacts like speakers, electromagnetic actuators, and hydraulic robots. However, these are non-trivial to instantiate as they require post-fabrication mechanical-- or electronic assembly. We introduce AirLogic: a technique to create electronics-free, interactive objects by embedding pneumatic input, logic processing, and output widgets in 3D-printable models. AirLogic devices can perform basic computation on user inputs and create visible, audible, or haptic feedback; yet they do not require elec- tronic circuits, physical assembly, or resetting between uses. Our library of 13 exemplar widgets can embed AirLogic-style computational capabilities in existing 3D models. We evaluate our widgets' performance—quantifying the loss of airflow (1) in each widget type, (2) based on printing orientation, and (3) from internal object geometry. Finally, we present five applications that illustrate AirLogic's potential.",
   "links": [
     {"title": "Paper", "href": "papers/airlogic.pdf"},
-    {"title": "ACM Digital Library (coming soon)", "href": "about:blank"},
+    {"title": "ACM Digital Library", "href": "https://dl.acm.org/doi/10.1145/3526113.3545642"},
     {"title": "Github repo", "href": "https://github.com/shape-changing-interfaces/AirLogic"},
-    {"title": "Video", "href": "https://youtu.be/jFL-_G9vmeU"}
+    {"title": "Project Page", "href": "https://youtu.be/jFL-_G9vmeU"}
   ],
   "video": "https://www.youtube.com/embed/jFL-_G9vmeU"
+},{
+  "thumb": "doreen-300.png",
+  "title": "DOREEN: A Game of Provocations Creating New Ambitions for Equity in Computing through Intertextual Design",
+  "titleShort": "DOREEN",
+  "authors": "Jenny-Margethe Vej, Valeria Borsotti, Valkyrie Savage, Morten Engell-Nørregård, Pernille Bjørn",
+  "venue": "NordiCHI 2022",
+  "abstract": "We introduce DOREEN, a norm-critical story-telling game of provocations that displays women's invisible experiences in computing to challenge barriers to inclusion. Following the principles of intertextual design, we collected empirical narratives from the past experiences of everyday women in computing and embedded these within the mechanics of role-playing storytelling games. With DOREEN we propose a playful way of exploring how gender roles, assumptions about computing, and social dynamics shape the experience of students – to reflect on the past with the aim of changing the future. DOREEN makes intertextual referencing to The Unbeatable SQUIRREL Girl aka Doreen Green, a computer science college student and a Marvel superhero who finds unorthodox ways (using wit and humor) to overcome barriers. DOREEN is a game to enjoy while engaging in critical reflection on belonging and well-being within computing. DOREEN is centered around an octahedron die and an adventure sheet inspired by tabletop role-playing gaming, emphasizing story-telling as a strategy for challenging norms and creating alternative narratives. The die design invites the players to reflect on how the probability of encountering limiting narratives and structural barriers can be higher or lower for different social groups. Finally, DOREEN is designed as the embodiment of all the people whose experiences, agency, and perspectives should be included in the journey of broadening participation in computing.",
+  "links": [
+    {"title": "ACM Digital Library", "href": "https://dl.acm.org/doi/10.1145/3546155.3547289"},
+    {"title": "Project Page", "href": "http://www.femtech.dk/artifacts/doreen/"},
+    {"title": "Instructable", "href": "https://www.instructables.com/Conversation-Oktahedron/"}
+  ],
+  "video": ""
 },{
   "thumb": "renderpanel-300.png",
   "title": "Fabricate it or Render it?",
