@@ -1,4 +1,17 @@
 [{
+  "thumb": "objectify-300.png",
+  "title": "Objectify: Better Living Through Anticipatory, Just-For-You 3D Printing!",
+  "titleShort": "Objectify",
+  "authors": "Valkyrie Savage, Sarah Homewood, Irina Shklovski",
+  "venue": "alt.CHI 2023",
+  "abstract": "The ubiquity of 3D printers reveals a problem: people do not know what to use them for. If they do have an idea, they struggle to realize it, despite decades of research into design tools. However, consumption patterns suggest people still desire new objects, and advanced AI and digital fabrication point together toward an easy, post-scarcity future. This satirical advertorial presents Objectify, a program that harvests users' data to create bespoke objects they could want, just in time. Pushing 'cutting edge' AI's promises to their logical conclusion, our implemented pipeline uses AI-based content generation (GPT-3 and Dreamfusion) to ideate, generate 3D models, and print just-in-time objects. Objectify is 'pataphysical software; created objects were non-functional monolothic pieces of blob-like single-color plastic. We discuss implications of the post-scarcity just-for-you vision of technological progress in AI and digital fabrication. ",
+  "links": [
+    {"title": "Github repo", "href": "https://github.com/valkyriesavage/objectify"},
+    {"title": "Paper", "href": "papers/objectify.pdf"},
+    {"title": "Video", "href": "https://www.youtube.com/watch?v=myohsVRPUk8"}
+  ],
+  "video": "https://www.youtube.com/embed/myohsVRPUk8"
+},{
   "thumb": "airlogic-300.png",
   "title": "AirLogic: Embedding Pneumatic Computation and I/O in 3D Models to Fabricate Electronics-Free Interactive Objects",
   "titleShort": "AirLogic",
