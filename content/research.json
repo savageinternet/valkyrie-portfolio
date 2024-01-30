@@ -1,4 +1,15 @@
 [{
+  "thumb": "crochet-300.png",
+  "title": "Hybrid Crochet: Exploring Integrating Digitally-Fabricated and Electronic Materials with Crochet",
+  "titleShort": "Hybrid Crochet",
+  "authors": "Kaja Seraphina Elisa Hano, Valkyrie Savage",
+  "venue": "TEI WIP 2024",
+  "abstract": "Human-computer interaction research with yarn-based crafts has concentrated on those that can be done by machine, like knitting and weaving. Crochet, on the other hand, has received little attention in HCI, because it cannot be automated. We explore integrating both electronics and digitally-fabricated materials---like 3D prints---into handcrafted crochet objects. We use 3D printed structures to guide crochet stitches by constraining stitch sizes and placement, and infill patterns to change the works' form, stiffness, and appearance. We also explore printed ring structures that bridge soft crochet and hard electronics, and whether different conductors can be crocheted. We demonstrate combining these primitives to build crocheted input devices like buttons and an interactive octopus. Our techniques can help crafters design and create interactive crochet objects.",
+  "links": [
+    {"title": "ACM Digital Library", "href":"https://doi.org/10.1145/3623509.3635257"},
+    {"title": "Paper", "href": "papers/crochet.pdf"}
+  ]
+},{
   "thumb": "objectify-300.png",
   "title": "Objectify: Better Living Through Anticipatory, Just-For-You 3D Printing!",
   "titleShort": "Objectify",
@@ -6,6 +17,7 @@
   "venue": "alt.CHI 2023",
   "abstract": "The ubiquity of 3D printers reveals a problem: people do not know what to use them for. If they do have an idea, they struggle to realize it, despite decades of research into design tools. However, consumption patterns suggest people still desire new objects, and advanced AI and digital fabrication point together toward an easy, post-scarcity future. This satirical advertorial presents Objectify, a program that harvests users' data to create bespoke objects they could want, just in time. Pushing 'cutting edge' AI's promises to their logical conclusion, our implemented pipeline uses AI-based content generation (GPT-3 and Dreamfusion) to ideate, generate 3D models, and print just-in-time objects. Objectify is 'pataphysical software; created objects were non-functional monolothic pieces of blob-like single-color plastic. We discuss implications of the post-scarcity just-for-you vision of technological progress in AI and digital fabrication. ",
   "links": [
+    {"title": "ACM Digital Library", "href":"https://dl.acm.org/doi/10.1145/3544549.3582748"},
     {"title": "Github repo", "href": "https://github.com/valkyriesavage/objectify"},
     {"title": "Paper", "href": "papers/objectify.pdf"},
     {"title": "Video", "href": "https://www.youtube.com/watch?v=myohsVRPUk8"}
