@@ -1,4 +1,28 @@
 [{
+  "thumb": "lacir-300.png",
+  "title": "LaCir: A multilayered laser-cuttable material to co-fabricate circuitry and structural components",
+  "titleShort": "LaCir",
+  "authors": "Niels Christian Buch, Carlos E. Tejada, Dan Ashbrook, Valkyrie Savage",
+  "venue": "CHI 2024",
+  "abstract": "Rapid prototyping is an important tool for designers, but many fabrication techniques are slow and create bulky components requiring multiple machines and processes to achieve desired device shape and electronic functionality. Prior work explored ways to ease fabricating shapes or designing electronics, but we focus on creating shape and electrical pathways at the same time from a single material and machine. LaCir leverages a three-layered, laser-cuttable material to incorporate circuits into the structural substrate of the design using laser cutters. Our substrate features a layer of conductive material sandwiched between thermoplastic sheets, allowing designers to cut electrical traces and assembleable, 3D object geometry in a single pass. We evaluate different composite materials, weighing their cuttability, ease of assembly, and conductivity; we also show using fully laser-cut joints as structural and electrical connections. We demonstrate LaCir's flexibility through several example artifacts.",
+  "links": [
+    {"title": "ACM Digital Library", "href":"https://doi.org/10.1145/3613904.3642888"},
+    {"title": "Paper", "href": "papers/lacir.pdf"},
+    {"title": "Video", "href": "https://youtu.be/dxSNfvO3NqU"}
+  ],
+  "video": "https://youtu.be/dxSNfvO3NqU"
+},{
+  "thumb": "pyrography-300.png",
+  "title": "3D Printed Pyrography: Using Wood Filament and Dynamic Control of Nozzle Temperature for Embedding Shades of Color in Objects",
+  "titleShort": "3D Printed Pyrography",
+  "authors": "Justin Moon, Jayseong Yi, Valkyrie Savage, Andrea Bianchi",
+  "venue": "Additive Manufacturing 2024",
+  "abstract": "Colors enhance the aesthetic and functional aspects of 3D printed objects. However, existing 3D printing techniques require additional materials and hardware that are either challenging to calibrate or too costly for average 3D printing users. This paper presents a fabrication technique we call 3D printed pyrography, which enables printing sixteen discrete shades of color and four directional gradients using a wood filament and a single-nozzle extruder. We investigate the effects of printing temperature and speed on the color properties of wood filament. Furthermore, we encapsulate this information in a custom software interface. This tool allows users to specify shades or map photographic images directly onto 3D surfaces, and generates the G-code that modulates the nozzle temperature and achieves the desired shading. We demonstrate 3D printed pyrography for various applications, such as enhancing visual aesthetics, offering visual guidance, and embedding markers to merge digital information with physical objects.",
+  "links": [
+    {"title": "Elsevier Online", "href":"https://www.sciencedirect.com/science/article/pii/S2214860424001106?via%3Dihub"}
+  ],
+  "video": "https://www.youtube.com/embed/FIXMEEEEEE"
+},{
   "thumb": "crochet-300.png",
   "title": "Hybrid Crochet: Exploring Integrating Digitally-Fabricated and Electronic Materials with Crochet",
   "titleShort": "Hybrid Crochet",
