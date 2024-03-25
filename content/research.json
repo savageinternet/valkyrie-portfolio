@@ -19,9 +19,10 @@
   "venue": "Additive Manufacturing 2024",
   "abstract": "Colors enhance the aesthetic and functional aspects of 3D printed objects. However, existing 3D printing techniques require additional materials and hardware that are either challenging to calibrate or too costly for average 3D printing users. This paper presents a fabrication technique we call 3D printed pyrography, which enables printing sixteen discrete shades of color and four directional gradients using a wood filament and a single-nozzle extruder. We investigate the effects of printing temperature and speed on the color properties of wood filament. Furthermore, we encapsulate this information in a custom software interface. This tool allows users to specify shades or map photographic images directly onto 3D surfaces, and generates the G-code that modulates the nozzle temperature and achieves the desired shading. We demonstrate 3D printed pyrography for various applications, such as enhancing visual aesthetics, offering visual guidance, and embedding markers to merge digital information with physical objects.",
   "links": [
-    {"title": "Elsevier Online", "href":"https://www.sciencedirect.com/science/article/pii/S2214860424001106?via%3Dihub"}
+    {"title": "Elsevier Online", "href":"https://www.sciencedirect.com/science/article/pii/S2214860424001106?via%3Dihub"},
+    {"title": "Video", "href": "https://www.youtube.com/watch?v=XqpqeNe3dgQ"}
   ],
-  "video": "https://www.youtube.com/embed/FIXMEEEEEE"
+  "video": "https://www.youtube.com/watch?v=XqpqeNe3dgQ"
 },{
   "thumb": "crochet-300.png",
   "title": "Hybrid Crochet: Exploring Integrating Digitally-Fabricated and Electronic Materials with Crochet",
