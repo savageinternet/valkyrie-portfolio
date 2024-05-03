@@ -8,9 +8,9 @@
   "links": [
     {"title": "ACM Digital Library", "href":"https://doi.org/10.1145/3613904.3642888"},
     {"title": "Paper", "href": "papers/lacir.pdf"},
-    {"title": "Video", "href": "https://youtu.be/dxSNfvO3NqU"}
+    {"title": "Video", "href": "https://www.youtube.com/watch?v=dxSNfvO3NqU"}
   ],
-  "video": "https://youtu.be/dxSNfvO3NqU"
+  "video": "https://www.youtube.com/watch?v=dxSNfvO3NqU"
 },{
   "thumb": "pyrography-300.png",
   "title": "3D Printed Pyrography: Using Wood Filament and Dynamic Control of Nozzle Temperature for Embedding Shades of Color in Objects",
