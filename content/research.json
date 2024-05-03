@@ -10,7 +10,7 @@
     {"title": "Paper", "href": "papers/lacir.pdf"},
     {"title": "Video", "href": "https://www.youtube.com/watch?v=dxSNfvO3NqU"}
   ],
-  "video": "https://www.youtube.com/watch?v=dxSNfvO3NqU"
+  "video": "https://www.youtube.com/embed/dxSNfvO3NqU"
 },{
   "thumb": "pyrography-300.png",
   "title": "3D Printed Pyrography: Using Wood Filament and Dynamic Control of Nozzle Temperature for Embedding Shades of Color in Objects",
@@ -22,7 +22,7 @@
     {"title": "Elsevier Online", "href":"https://www.sciencedirect.com/science/article/pii/S2214860424001106?via%3Dihub"},
     {"title": "Video", "href": "https://www.youtube.com/watch?v=XqpqeNe3dgQ"}
   ],
-  "video": "https://www.youtube.com/watch?v=XqpqeNe3dgQ"
+  "video": "https://www.youtube.com/embed/XqpqeNe3dgQ"
 },{
   "thumb": "crochet-300.png",
   "title": "Hybrid Crochet: Exploring Integrating Digitally-Fabricated and Electronic Materials with Crochet",
