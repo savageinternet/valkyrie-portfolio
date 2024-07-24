@@ -1,14 +1,25 @@
 [{
+  "thumb": "rhapso-300.png",
+  "title": "Rhapso: Automatically Embedding Fiber Materials into 3D Prints for Enhanced Interactivity",
+  "titleShort": "Rhapso",
+  "authors": "Daniel Ashbrook, Wei-Ju Lin, Nicholas Bentley, Diana Soponar, Valkyrie Savage, Zeyu Yan, Lung-Pan Cheng, Huaishu Peng, Hyunyoung Kim",
+  "venue": "UIST 2024",
+  "abstract": "We introduce Rhapso, a 3D printing system designed to embed a diverse range of continuous fiber materials within 3D objects during the printing process. This approach enables integrating properties like tensile strength, force storage and transmission, or aesthetic and tactile characteristics, directly into low-cost thermoplastic 3D prints. These functional objects can have intricate actuation, self-assembly, and sensing capabilities with little to no manual intervention. To achieve this, we modify a low-cost Fused Filament Fabrication (FFF) 3D printer, adding a stepper motor-controlled fiber spool mechanism on a gear ring above the print bed. In addition to hardware, we provide parsing software for precise fiber placement, which generates G-code for printer operation. To illustrate the versatility of our system, we present applications that showcase its extensive design potential. Additionally, we offer comprehensive documentation and open designs, empowering others to replicate our system and explore its possibilities.",
+  "links": [
+    {"title": "ACM Digital Library", "href": "https://doi.org/10.1145/1122445.1122456"},
+    {"title": "Video", "href": "https://www.youtube.com/watch?v=xxxxxxxxx"}
+  ],
+  "video": "https://www.youtube.com/embed/xxxxxx"
+},{
   "thumb": "allai-300.png",
   "title": "Automated Sentence Generation for a Spaced Repetition Software",
   "titleShort": "AllAI",
   "authors": "Benjamin Paddags, Valkyrie Savage, Daniel Herscovich",
-  "venue": "BEA 2024",
+  "venue": "BEA 2024, Best Paper",
   "abstract": "This paper presents and tests AllAI, an app that utilizes state-of-the-art NLP technology to assist second language acquisition through a novel method of sentence-based spaced repetition. Diverging from current single word or fixed sentence repetition, AllAI dynamically combines words due for repetition into sentences, enabling learning words in context while scheduling them independently. This research explores various suitable NLP paradigms and finds a few-shot prompting approach and retrieval of existing sentences from a corpus to yield the best correctness and scheduling accuracy. Subsequently, it evaluates these methods on 26 learners of Danish, finding a four-fold increase in the speed at which new words are learned, compared to conventional spaced repetition. Users of the retrieval method also reported significantly higher enjoyment, hinting at a higher user engagement.",
   "links": [
     {"title": "ACL Anthology", "href": "https://aclanthology.org/2024.bea-1.29"}
-  ],
-  "video": "https://www.youtube.com/embed/dxSNfvO3NqU"
+  ]
 },{
   "thumb": "lacir-300.png",
   "title": "LaCir: A multilayered laser-cuttable material to co-fabricate circuitry and structural components",
@@ -129,7 +140,7 @@
   "title": "Drill Sergeant: Supporting Physical Construction Projects through an Ecosystem of Augmented Tools",
   "titleShort": "Drill Sergeant",
   "authors": "Eldon Schoop, Michelle Nguyen, Daniel Lim, Valkyrie Savage, Sean Follmer, Björn Hartmann",
-  "venue": "CHI 2016 EA",
+  "venue": "CHI 2016 EA, Best Paper",
   "abstract": "Mapping techniques from software tutorials onto physical craft processes can assist novices in building multi-material assemblies. By providing in-situ step instructions and progress tracking, generating dynamic feedback on technique, and adapting tutorial content to a user's specific context and preferences, an ecosystem of smart tools can guide users through complete project tutorials. We demonstrate how such techniques can be enabled by augmenting common workshop tools (drill/driver, saw, router) with measurement, state sensing and interactive feedback; and by sequencing instructions across multiple tools. We validate the benefits of a smart tool ecosystem through reflections on a series of author-created design examples and informal feedback from four fab lab users.",
   "links": [
     {"title": "ACM Digital Library", "href": "http://dl.acm.org/citation.cfm?id=2892429"},
