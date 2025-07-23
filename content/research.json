@@ -1,4 +1,54 @@
 [{
+  "thumb": "fedt-300.png",
+  "title": "FEDT: Supporting experiment design and execution in HCI fabrication research",
+  "titleShort": "FEDT",
+  "authors": "Valkyrie Savage, Harrison Goldstein, Nóra Püsök, Jia Yi Ren, Bhaskar Dutt, Chandrakana Nandi, Lora Oehlberg",
+  "venue": "UIST 2025",
+  "abstract": "Fabrication research in HCI relies on diverse experiments to inform and assess research contributions. However, performance and reporting of these experiments is inconsistent, not only reducing transparency that reassures reviewers and readers of a project's rigour but also challenging methods’ replicability by future researchers. We analyze recent fabrication publications to extract a unified experimental workflow, which we develop into a domain-specific language, and into the openly-available Fabrication Experiment Design Tool (FEDT). FEDT facilitates designing and executing HCI fabrication experiments. We demonstrate its comprehensiveness by using FEDT to model 42 fabrication experiments from 10 papers, which leverage varied fabrication technologies and techniques, including requiring human intervention in their steps. We discuss FEDT and our modeled experiments with the papers' original authors to evaluate its precision and utility in real workflows, and we demonstrate functionality with end-to-end replications of two published experiments.",
+  "links": [
+    {"title": "ACM Digital Library", "href": "https://doi.org/10.1145/3746059.3747739"},
+    {"title": "Paper", "href": "papers/fedt.pdf"},
+    {"title": "Video", "href": "https://youtu.be/CQExtj_ESxo"}
+  ],
+  "video": "https://www.youtube.com/embed/CQExtj_ESxo"
+},{
+  "thumb": "reefsense-300.png",
+  "title": "Demonstrating ReefSense: Leveraging water properties to create computational, climate-adaptive, artificial reefs",
+  "titleShort": "ReefSense",
+  "authors": "Linnea Andersen, Valkyrie Savage",
+  "venue": "Aarhus 2025 Demo",
+  "abstract": "Corals are endangered from climate change, due to exposure to sunlight during times of especially high water temperature. However, constantly shading corals also harms them. We thus introduce ReefSense: a passive computational system that can help shade corals using the energy of the ocean to sense and actuate. We have prototyped and tested ReefSense setups with 3D printed-- and off-the-shelf components: the key aspect is that the system uses the energy of temperature change and water flow to deploy shade when it is needed. We discuss ReefSense, a bachelor thesis project, as a point in a more general space of computation that can work with nature instead of against it, and allow future computational systems to integrate more tightly with the world.",
+  "links": [
+    {"title": "ACM Digital Library", "href": "https://doi.org/10.1145/3737609.3747106"},
+    {"title": "Paper", "href": "papers/reefsense.pdf"},
+    {"title": "Video", "href": "https://youtu.be/nTSTTKAjq_4"}
+  ],
+  "video": "https://www.youtube.com/embed/nTSTTKAjq_4"
+},{
+  "thumb": "staytuned-300.png",
+  "title": "Stay Tuned: Tuning Actuation Force in Functional Objects",
+  "titleShort": "Stay Tuned",
+  "authors": "Athina Panotopoulou, Atul Chaudhary, Valkyrie Savage, Daniel Ashbrook",
+  "venue": "DIS 2025",
+  "abstract": "The physical properties of objects cannot typically be adjusted post-manufacture to meet specific needs or preferences. While 3D printing offers the potential of design-time customization, manipulating object properties after the object has been printed remains challenging. We present a 3D printable bistable mechanism with an actuation force that can be quickly and repeatedly adjusted after fabrication by up to a factor of 14, enabling both tunable spring-like or lock-like behavior. Our mechanism, printable on commodity low-cost 3D printers, incorporates off-the-shelf elastic threads to maintain robust operation when fabricated at different sizes. We present an evaluation of how manipulating geometrical parameters influences the post-print behavior of our design, and demonstrate its versatility in five functional objects.",
+  "links": [
+    {"title": "ACM Digital Library", "href": "https://doi.org/10.1145/3715336.3735804"},
+    {"title": "Paper", "href": "papers/staytuned.pdf"}
+  ]
+},{
+  "thumb": "impedius-300.png",
+  "title": "Impedius: A Signal-Space Multiplexing Technique Using Individual Elements of Impedance for Chained Passive Sensors",
+  "titleShort": "Impedius",
+  "authors": "Bhaskar Dutt, Yixuan Chen, Daniel Ashbrook, Valkyrie Savage",
+  "venue": "TEI 2025",
+  "abstract": "Commercial touch input devices sense changes in capacitance (C), resistance (R), and inductance (L), but aggregate these into a single, complex quantity: impedance. Commercially available LCR meters, however, can report the individual elements of impedance. We use this capability to introduce Impedius, a signal-space multiplexing technique. With Impedius, we create and sense multiple static values and continuous changes in the R and C values within a single circuit by manipulating capacitance and resistance individually. Further, we explore 3D printing as a method to create predictable resistance and capacitance values via geometric and printer setting manipulation, and offer a software tool that generates components with desired R and C values. Based on 96 samples, our printed passive components have error μ = 4.63 pF, σ = 1.68 pF (capacitors) and μ = 13.85 kΩ, σ = 5.59 kΩ (resistors). We demonstrate multiple interactive example applications with our components, highlighting the opportunities for signal-space multiplexing.",
+  "links": [
+    {"title": "ACM Digital Library", "href": "https://doi.org/10.1145/3689050.3704949"},
+    {"title": "Paper", "href": "papers/impedius.pdf"},
+    {"title": "Video", "href": "https://youtu.be/aaT_SeJ6O8E"}
+  ],
+  "video": "https://www.youtube.com/embed/aaT_SeJ6O8E"
+},{
   "thumb": "rhapso-300.png",
   "title": "Rhapso: Automatically Embedding Fiber Materials into 3D Prints for Enhanced Interactivity",
   "titleShort": "Rhapso",
@@ -24,7 +74,7 @@
   "thumb": "lacir-300.png",
   "title": "LaCir: A multilayered laser-cuttable material to co-fabricate circuitry and structural components",
   "titleShort": "LaCir",
-  "authors": "Niels Christian Buch, Carlos E. Tejada, Dan Ashbrook, Valkyrie Savage",
+  "authors": "Niels Christian Buch, Carlos E. Tejada, Daniel Ashbrook, Valkyrie Savage",
   "venue": "CHI 2024",
   "abstract": "Rapid prototyping is an important tool for designers, but many fabrication techniques are slow and create bulky components requiring multiple machines and processes to achieve desired device shape and electronic functionality. Prior work explored ways to ease fabricating shapes or designing electronics, but we focus on creating shape and electrical pathways at the same time from a single material and machine. LaCir leverages a three-layered, laser-cuttable material to incorporate circuits into the structural substrate of the design using laser cutters. Our substrate features a layer of conductive material sandwiched between thermoplastic sheets, allowing designers to cut electrical traces and assembleable, 3D object geometry in a single pass. We evaluate different composite materials, weighing their cuttability, ease of assembly, and conductivity; we also show using fully laser-cut joints as structural and electrical connections. We demonstrate LaCir's flexibility through several example artifacts.",
   "links": [
